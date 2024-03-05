@@ -10,6 +10,59 @@ There are also a few things that you will probably notice quickly with me that I
 
 In the work I do, my drive is to solve problems for people and reduce frustration and friction for the people using the software solutions we are working on. This does extend to the other people working on the software in terms of improving devx, processes and frameworks for the work we do to make our work flow better.
 
+---
+
+Hey there! I'm Dag Frode, and I'd love to give you a glimpse into who I am and how I roll. 🌟
+
+Let's kick off with my work style—I'm all about focus and getting things done. I believe in completing tasks efficiently because, you know, tasks tend to expand to fill the time we give them! Plus, I'm all for making sure our solutions are top-notch for our users.
+
+When it comes to thinking, I'm a bit of an outlier. I dive into the nitty-gritty details to avoid any confusion down the road, but I also take a step back to see the big picture. Sometimes, I might sound like I'm contradicting myself, but it's just my way of shifting perspectives on the fly.
+
+In the work arena, I'm a practical thinker with a sprinkle of innovation here and there. I'm pretty flexible, though I might need a bit of pep talk or a chat if there's a sudden change in plans. My natural state is improvement—I've been coding for half my life, so making things smoother and reducing unnecessary work is my jam.
+
+Ambition-wise, I'm all about learning and challenging myself. Life can be a bit intimidating until you give things a shot, right? Once I've mastered something, I like to mix things up to keep that motivation flowing.
+
+As for leadership, I'm more of a practical leader. I know how to get things done, follow up, and make sure the team is rocking it. Power isn't my main game; I'm in it to achieve goals, challenge myself, and help others shine.
+
+I'm very cooperative, except when I'm in the zone—then I might get a bit distracted by chit-chat. But hey, we're all human, right?
+
+Emotionally, I'm all about compassion, aiming for that stoic vibe. I stay humble despite some proud accomplishments. I'm mostly calm, with a sprinkle of passion when things get overwhelming. I'm a realist, but my team often sees me as positive and encouraging.
+
+I'm pretty self-aware and steer clear of overthinking—been there, done that with anxiety. I can be assertive if needed, but my motto is "listen first, then talk."
+
+Socially, I'm a bit reserved at first, but once you get to know me, you'll see some outgoing bursts. I might not be the chattiest, but I'm always up for a good chat.
+
+Excited to be part of the team and get to know all of you better! 🚀
+
+
+
+### Headsets
+
+The first thing to know about me is that I'm having a hard time working if I hear people talking around me, I need my inner dialog to think, this means I will most likely be wearing a headset when at my desk. I prefer that you send me a short ping on slack so that I can respond if I'm free, need two minutes or if I'm in the middle of something and will get back to you without breaking my flow.
+
+
+### Sociability
+
+I'm rather introverted in terms of where I get my energy. I therefore prefer small groups of people and have a hard time with large open roms with bad acustics. I get overstimulated. The result might be that I don't join team lunches on days I had a lot of stumulation. I might eat fast and then head out for a walk instead. Feel free to join me tough, I enjoy getting to know the people I work with and socializing in smaller groups!
+
+
+### Walks
+
+Talking about walks. I have developed a habit of breaking up the day with at least one walk during lunchtime. Feel free to join me. I need the air, sunlight and movement to be at my most productive.
+
+I might need to get out for another walk if the work I'm doing is particularly challeging or if I get overstimulated during the workday. Some work is also easier to get done while walking.
+
+
+## Workstyle
+
+### Solo vs collaborative
+I prefer planning work in colaboration and finding solutions for the work we work on together. When it comes to doing the task I usually prefer working on it by myself then doing peer reviews. I think it has to do with the teams I've worked in previously, so I'm open to try more pair-programming!
+
+### Balancing Creativity and structure
+
+
+## TMI section
+
 ### Personality
 A quick big 5 based on taking the test every year or so the past few years. Generally wanting to achieve things, dealing with quite a bit of personal stress and uncomfortable feelings, trying to be good to the people I work with and the people affected by the work I do.
 
@@ -66,28 +119,3 @@ A quick big 5 based on taking the test every year or so the past few years. Gene
 - **Awareness** - I think I am rather self-aware. I'm activily not devlling to much on things as I've been a rather anxious person and that is to no benefit of anyone.
 - **Assertiveness** - I can be rather assertive, when I feel the need, witch for the most part I don't. I try to go by "First listen, then talk."
 - **Liveliness** - I'm rather reserved untill I get to know you better. I can be outgoing in short outbursts, but ar rather low on sociability.
-
-
-### Headsets
-
-The first thing to know about me is that I'm having a hard time working if I hear people talking around me, I need my inner dialog to think, this means I will most likely be wearing a headset when at my desk. I prefer that you send me a short ping on slack so that I can respond if I'm free, need two minutes or if I'm in the middle of something and will get back to you without breaking my flow.
-
-
-### Sociability
-
-I'm rather introverted in terms of where I get my energy. I therefore prefer small groups of people and have a hard time with large open roms with bad acustics. I get overstimulated. The result might be that I don't join team lunches on days I had a lot of stumulation. I might eat fast and then head out for a walk instead. Feel free to join me tough, I enjoy getting to know the people I work with and socializing in smaller groups!
-
-
-### Walks
-
-Talking about walks. I have developed a habit of breaking up the day with at least one walk during lunchtime. Feel free to join me. I need the air, sunlight and movement to be at my most productive.
-
-I might need to get out for another walk if the work I'm doing is particularly challeging or if I get overstimulated during the workday. Some work is also easier to get done while walking.
-
-
-## Workstyle
-
-### Solo vs collaborative
-I prefer planning work in colaboration and finding solutions for the work we work on together. When it comes to doing the task I usually prefer working on it by myself then doing peer reviews. I think it has to do with the teams I've worked in previously, so I'm open to try more pair-programming!
-
-### Balancing Creativity and structure
