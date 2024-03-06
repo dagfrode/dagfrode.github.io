@@ -17,3 +17,5 @@ What gets me going
   - want them to not have to feel that way
 - being excipted by something - glee
 - wanting to share a feeling
+
+- https://github.dev/dagfs/dagfs.github.io/tree/master/assets
