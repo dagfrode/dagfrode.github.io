@@ -1,0 +1,65 @@
+body {
+  --main-green-dark: #041;
+  --main-green-light: #efe;
+  --main-pink: #dab;
+
+  
+    --theme-background: black;
+    --theme-text: var(--main-green-light);
+    --theme-link: var(--main-pink);
+    --theme-header: var(--main-pink);
+    --theme-header-underline: var(--main-pink);
+    --theme-black-quote-bar: var(--main-pink);
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+      --theme-background: var(--main-green-light);
+  --theme-text: black;
+  --theme-link: var(--main-green-dark);
+  --theme-header: var(--main-green-dark);
+  --theme-mode: var(--main-green-dark);
+  --theme-header-underline: var(--main-pink);
+  --theme-black-quote-bar: var(--main-pink);
+  
+  }
+}
+
+body,
+html {
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  /* scroll-behavior: smooth; */
+  background-color: var(--theme-background);
+  color: var(--theme-text);
+}
+
+#header_wrap,
+#footer_wrap {
+  width: 100%;
+}
+
+#main_content,
+header,
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+a {
+  color: var(--theme-link);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#project_title {
+  font-family: monospace;
+  color: var(--theme-header);
+}
