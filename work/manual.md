@@ -63,7 +63,8 @@ I prefer planning work in colaboration and finding solutions for the work we wor
 
 ## TMI section
 
-### Personality
+<details>
+<summary> Personality</summary>
 A quick big 5 based on taking the test every year or so the past few years. Generally wanting to achieve things, dealing with quite a bit of personal stress and uncomfortable feelings, trying to be good to the people I work with and the people affected by the work I do.
 
 - Extraversion
@@ -102,7 +103,10 @@ A quick big 5 based on taking the test every year or so the past few years. Gene
     - Intellect - mid-high
     - Liberalism - high
 
-### ADEPT-15
+</details>
+
+<details>
+<summary> ADEPT-15</summary>
 
 - **Drive** - I can be rather focused. I like completing tasks and know that tasks tend to take the time you give them and that quite often it is prefered to get to some level of completion before improving a solution for the sake of the user.
 - **Structure** - I did say I would only hightlight my outliers, the thing is, in terms of the big picture vs small picture thinking I would say I'm and outlier in both extremes. I like to go into small details and make sure they are right as they can often cause confution later on. But I also like to look at the big picture and make sure what we are doing makes sence in that regard. So I tend to go a bit back and forth between thouse perspectives. Witch can be a bit confusing as I might end up contradict the point I started making when I started talking as I shift mindset while talking. 
@@ -119,3 +123,5 @@ A quick big 5 based on taking the test every year or so the past few years. Gene
 - **Awareness** - I think I am rather self-aware. I'm activily not devlling to much on things as I've been a rather anxious person and that is to no benefit of anyone.
 - **Assertiveness** - I can be rather assertive, when I feel the need, witch for the most part I don't. I try to go by "First listen, then talk."
 - **Liveliness** - I'm rather reserved untill I get to know you better. I can be outgoing in short outbursts, but ar rather low on sociability.
+
+</details>
