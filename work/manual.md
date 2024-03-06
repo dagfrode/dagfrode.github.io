@@ -1,4 +1,4 @@
-# Manual for working with me
+# Working with Dag Frode
 
 Hi there, pleased to get the pleasure of working with! This is an atemt and communicating how to work best with me.
 
