@@ -1,17 +1,18 @@
 body {
-  --main-green-dark: #041;
-  --main-green-light: #efe;
+  --main-green-dark: #254117;
+  --main-green-light: #228B22;
   --main-pink: #dab;
+  --main-white:#eee;
 
   
-    --theme-background: black;
+    --theme-background: var(--main-green-dark);
     --theme-text: var(--main-green-light);
     --theme-link: var(--main-pink);
     --theme-header: var(--main-pink);
     --theme-header-underline: var(--main-pink);
     --theme-black-quote-bar: var(--main-pink);
 }
-
+/*
 @media (prefers-color-scheme: light) {
   body {
       --theme-background: var(--main-green-light);
@@ -24,7 +25,7 @@ body {
   
   }
 }
-
+*/
 body,
 html {
   word-wrap: break-word;
@@ -36,12 +37,9 @@ html {
   color: var(--theme-text);
 }
 
-#header_wrap,
-#footer_wrap {
-  width: 100%;
-}
 
-#main_content,
+
+#main,
 header,
 footer {
   max-width: 600px;
