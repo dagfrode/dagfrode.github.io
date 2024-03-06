@@ -11,6 +11,7 @@ body {
     --theme-header: var(--main-white);
     --theme-header-underline: var(--main-pink);
     --theme-black-quote-bar: var(--main-pink);
+    font-size: 20px;
 }
 /*
 @media (prefers-color-scheme: light) {
@@ -42,7 +43,7 @@ html {
 main,
 header,
 footer {
-  max-width: 600px;
+  max-width: 40rem;
   margin: 0 auto;
   padding: 10px;
 }
