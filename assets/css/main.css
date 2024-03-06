@@ -2,13 +2,13 @@ body {
   --main-green-dark: #254117;
   --main-green-light: #228B22;
   --main-pink: #dab;
-  --main-white:#eee;
+  --main-white:#ddd;
 
   
     --theme-background: var(--main-green-dark);
     --theme-text: var(--main-white);
     --theme-link: var(--main-pink);
-    --theme-header: var(-main-white);
+    --theme-header: var(--main-white);
     --theme-header-underline: var(--main-pink);
     --theme-black-quote-bar: var(--main-pink);
 }
