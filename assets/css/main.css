@@ -6,9 +6,9 @@ body {
 
   
     --theme-background: var(--main-green-dark);
-    --theme-text: var(--main-green-light);
+    --theme-text: var(--main-white);
     --theme-link: var(--main-pink);
-    --theme-header: var(--main-pink);
+    --theme-header: var(-main-white);
     --theme-header-underline: var(--main-pink);
     --theme-black-quote-bar: var(--main-pink);
 }
