@@ -51,7 +51,15 @@ There are at least [7 types of rest](https://ideas.ted.com/the-7-types-of-rest-t
 From the 9 Causes Of Depression (According To Johann Hari)
 For more, explore [Therapy in a nutshells excelent summary](https://therapyinanutshell.com/the-9-causes-of-depression-according-to-johann-hari-lost-connections-part-2/)
 
-- **Disconnection from meaningfull work** - 
+- **Disconnection from meaningfull work** - Feeling stuck in the hedionic threadmill having little controll over work and feeling burned out in general. See [Areas of work life scale](#areas-of-work-life-scale) for more.
+- **Feeling disconnected from others** - being lonely, with few or none to rely on or share good and difficult parts of life with.
+- **Lack of meaning trough values** - ads we constantly consume makes us feel inadiquat and that we need to have things to feel good, instead of feeling good because we follow our values. We work jobs that is not connected to our values to buy we dont need.
+- **Childhood trama** - Adverce childhood experiences increases likelyhood of depression. Reconnecting with childhood experiences, processing them and integrating parts of yourself you have exiled.
+- **lack of status and respect** - this commes back to disconnect from others and meaningfull work. If all the value anyone has is because they have money, fame, or status, then we can all quickly loos or spot, and some never get to have a spot in the first place. It can be viewed as lack of identity as we need to be part of something where other respects us.
+- **lack of nature** - we are improving all parts of life, and in the process making the world more and more artificial. This disconnects us from nature and all the stimulation it gives us and are wired into us as a spechies.
+- **lack of hope** - feeling insecure about the future. Being feed by the media all sorts of bad stories, even tough the world is in general a better place. Having systems fail us, lacking support from others.
+- **Genes** - some of us are unlucky and are more likely to become depressed.
+- **Brain changes** - experiences we have can be traumatic and spiral things out of controll.
 
 ## DR. K's guide
 
@@ -64,5 +72,12 @@ In [DR. K's guide to mental health](https://www.healthygamer.gg/about/guide) he 
 - **The Fantasy Trap** - Running away to a fanasy insted of facing the painfull reality and letting it inspire us to make the changes in our lives that we need.
 
 ## Areas of work life scale
+
+- **Controll** - 
+- **Workload** - 
+- **Reward** - 
+- **Community** - 
+- **Fairness** - 
+- **Values** - 
 
 
