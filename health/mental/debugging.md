@@ -48,5 +48,21 @@ There are at least [7 types of rest](https://ideas.ted.com/the-7-types-of-rest-t
 - spiritual rest
 
 ## 9 causes of depression
+From the 9 Causes Of Depression (According To Johann Hari)
+For more, explore [Therapy in a nutshells excelent summary](https://therapyinanutshell.com/the-9-causes-of-depression-according-to-johann-hari-lost-connections-part-2/)
+
+- **Disconnection from meaningfull work** - 
+
+## DR. K's guide
+
+In [DR. K's guide to mental health](https://www.healthygamer.gg/about/guide) he outlines 5 causes for depression:
+
+- **Falling behind** - Feeling like you are falling behind in life and that it will take more and more effort to be able to catch up and at some point feel like there is now way you can catch up on life.
+- **Inability to forgive** - Being unable to forgive ourself or others. Beliving the reason life is not good is because of someone you blame.
+- **Protective helplessness** - Being afraid to find out what your tru potential are and falling short of your own expectations. It hurts less to do nothing.
+- **Conditional love** - Thinking you are only worthy of love given certain
+- **The Fantasy Trap** - Running away to a fanasy insted of facing the painfull reality and letting it inspire us to make the changes in our lives that we need.
 
 ## Areas of work life scale
+
+
