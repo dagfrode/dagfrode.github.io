@@ -1,5 +1,7 @@
 # Tools for debugging your mental health
 
+
+
 ## The circle of control
 
 A common concept among relegions and philosophies.
