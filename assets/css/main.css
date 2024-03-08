@@ -174,11 +174,13 @@ img {
 header{
   display: flex;
   flex-direction: row;
-  gap:10px;
+  gap:15px;
 }
 
 header a{
   display: flex;
   align-items:center;
   gap:3px;
+  text-decoration: none;
+  border-bottom:1px solid var(--theme-link);
 }
