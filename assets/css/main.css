@@ -177,7 +177,8 @@ header{
   gap:10px;
 }
 
-header i{
-  display: inline-block;
-  margin-right: 5px;
+header a{
+  display: flex;
+  align-items:center;
+  gap:3px;
 }
