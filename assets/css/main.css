@@ -170,3 +170,14 @@ blockquote {
 img {
   max-width: 100%;
 }
+
+header{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+header i{
+  display: inline-block;
+  margin-right: 5px;
+}
