@@ -11,22 +11,20 @@
 
  
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
   </head>
 
   <body>
 <header>
-  <a href="/">Home</a>
-  <a href="/now">Now</a>
-  <a href="/work/manual">Manual</a>
+  <a href="/"><i class="home"></i>Home</a>
+  <a href="/now"><i class="calendar-today"></i>Now</a>
+  <a href="/about"><i class="info"></i>About</a>
+  <a href="/work/manual"><i class="readme"></i>Manual</a>
+  <a href="/hire"><i class="profile"></i>Hire</a>
 </header>
-    <main>
-
-        {{ content }}
-    
+  <main>
+    {{ content }}
   </main>
   <footer></footer>
-
-
- 
   </body>
 </html>
