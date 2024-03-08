@@ -1,90 +1,104 @@
 # Working with Dag Frode
 
-Hi there, pleased to get the pleasure of working with! This is an atemt and communicating how to work best with me.
+Hi there! I'm looking forward to the pleasure of working with you!
+
+This page is an attempt to efficiently communicate what it is like working with me. The process of getting to know your coworkers usually takes about 6 months, let see if we can speed this up!
+
+Based on [Working with Claire: an unauthorized guide](https://growth.eladgil.com/book/the-role-of-the-ceo/insights-working-with-claire/)
 
 ## First things first
 
+A few items that will be most noticeable and affect our working relationships the most.
+
 ### Headsets
 
-The first thing to know about me is that I'm having a hard time working if I hear people talking around me, I need my inner dialog to think, this means I will most likely be wearing a headset when at my desk. I prefer that you send me a short ping on slack so that I can respond if I'm free, need two minutes or if I'm in the middle of something and will get back to you without breaking my flow.
+I have a hard time working if I hear people talking around me, I need my inner dialog to think, this means I will most likely be wearing a headset when at my desk. I am however usually free to help out, but prefer that you ping me on Slack so my flow is not broken. I'll get right back to you, letting you know if I'm free right away, need a couple of minutes to finish the thought I'm working on, or if I'm deep into something and need some time before I am available.
 
 
 ### Sociability
 
-I'm rather introverted in terms of where I get my energy. I therefore prefer small groups of people and have a hard time with large open roms with bad acustics. I get overstimulated. The result might be that I don't join team lunches on days I had a lot of stumulation. I might eat fast and then head out for a walk instead. Feel free to join me tough, I enjoy getting to know the people I work with and socializing in smaller groups!
+Introversion has had many different definitions through the years. I'm rather low on sociability, get energy from solitude, and prefer smaller groups of people and a calm environment. I can get overstimulated.
+
+This does not affect work to a large degree, it does however affect the social aspects of work and being part of a team to some degree. Meetings and work-related tasks are fine. More social situations such as eating out or doing social activities with the team in busy environments can take quite a lot out of me, especially before I've had a bit of alcohol. So I tend to participate less in such activities as I need to prioritize other social activities.
+
+This means I might skip eating with the team during lunch break, not because I don't want to spend time with you, but because the lunch room often drains me.
+
+I do however get a lot out of spending time with my co-workers in smaller groups, especially talking about deeper things. I will try to find some ways to get to do activities with you to get to know you better. Like inviting you out for a walk.
 
 
 ### Walks
 
-Talking about walks. I have developed a habit of breaking up the day with at least one walk during lunchtime. Feel free to join me. I need the air, sunlight and movement to be at my most productive.
+Talking about walks. I have developed a habit of breaking up the day with at least one walk during lunchtime. Feel free to join me. I need the air, sunlight, and movement to be at my most productive.
 
-I might need to get out for another walk if the work I'm doing is particularly challeging or if I get overstimulated during the workday. Some work is also easier to get done while walking.
+I might need to get out for another walk if the work I'm doing is particularly challenging or if I get overstimulated during the workday. Some work is also easier to get done while walking.
 
 
 ## Task style
 
 ### Drive
-I'm all about focus and getting things done. I believe in completing tasks efficiently because, you know, tasks tend to expand to fill the time we give them! Plus, I'm all for making sure our solutions are top-notch for our users.
+I'm pretty driven, preferring to focus and get things done. If left to my own devices, I forget to take enough breaks and suffer because of it. I believe tasks expand to take the time given to them. And I try to make the best possible products for our users.
 
 ### Structure
-When it comes to thinking, I'm a bit of an outlier. I dive into the nitty-gritty details to avoid any confusion down the road, but I also take a step back to see the big picture. Sometimes, I might sound like I'm contradicting myself, but it's just my way of shifting perspectives on the fly.
+I go back and forth between the big picture and detailed thinking. I can get stuck in detail thinking, or not thinking to think big enough or get stuck thinking too big. 
+
+I try to balance this so I don't get stuck, and use the people around me to discuss. I might jump a bit between the big picture, and details thinking when talking as talking often helps me think, I might present some really good arguments for something when I start talking, then end up changing my mind as I shift perspective concluding with something different than what I started arguing. I will try to notify you when this happens as it can cause some confusion.
 
 
 ## Adaption style
 
 ### Conceptual
 
-In the work arena, I'm a practical thinker with a sprinkle of innovation here and there. 
+I shift between practical and innovative thinking. I enjoy spending time innovating, then get bored and want to get practical achieving something. I can often be very practical getting quite a bit done, then spend some time innovating and redoing what I just did more efficiently. I usually need to spend some time exploring patterns before innovating. Hench redoing things I just did more efficiently, usually in a way that makes the next similar work more efficient.
+
+
 
 
 ### Flexibility
-I'm pretty flexible, though I might need a bit of pep talk or a chat if there's a sudden change in plans. 
+I'm pretty flexible, though I might need a bit of pep talk or a chat if there's a sudden change in plans. Once I start focusing I don't like to change the wave I have built up.
 
 ### Mastery
 
-My natural state is improvement—I've been coding for half my life, so making things smoother and reducing unnecessary work is my jam.
+My natural state is improvement—I've been coding for half my life, so making things smoother and reducing unnecessary work is my jam. I can get into a pretty good flow and get a lot done when needed, but that requires some more effort building up a wave to ride on.
 
 
-## Achievment style
+## Achievement style
 
 ### Ambition
-Ambition-wise, I'm all about learning and challenging myself. Life can be a bit intimidating until you give things a shot, right? Once I've mastered something, I like to mix things up to keep that motivation flowing.
+Ambition-wise, I enjoy learning and challenging myself. Life can be a bit intimidating until you give things a shot. Once I've mastered something, I like to mix things up to stay motivated.
 
 ### Power
-As for leadership, I'm more of a practical leader. I know how to get things done, follow up, and make sure the team is rocking it. Power isn't my main game; I'm in it to achieve goals, challenge myself, and help others shine.
+As for leadership, I'm more of a practical leader. I know how to get things done, follow up, and make sure the team is rocking it. I do not care for power. I'm in it to achieve goals, challenge myself, and help others shine.
 
-## Team work style
+## Teamwork style
 
 ### Cooperativeness
-I'm very cooperative, except when I'm in the zone—then I might get a bit distracted by chit-chat. But hey, we're all human, right?
+I'm very cooperative, except when I'm in the zone. I prefer separating planning and doing work. I enjoy spending time cooperating planning what to do, then time alone doing the work. I also enjoy helping others but have so far found working by myself and then checking with peer reviews to be the most effective. But I'm up for challenging that!
 
 
 ### Sensitivity
-Emotionally, I'm all about compassion, aiming for that stoic vibe.
+I'm pretty sensitive, have a lot of compassion, sensing others' feelings. I am trying to be more stoic as in the true meaning behind stoicism, which is about understanding feelings, both our own and others.
 
 ### Humility
- I stay humble despite some proud accomplishments. 
+I will say I'm pretty humble. I'm trying to be more proud of the things I have achieved, break free of the "Janteloven" and be inspired by [Jan Thomas](https://radio.nrk.no/podkast/saann_er_du/sesong/2019/l_8c6cac95-09b2-45dd-acac-9509b245dd77)
 
 
 ## Emotional style
 
 ### Composure
 
-I'm mostly calm, with a sprinkle of passion when things get overwhelming. 
-
-
+I'm pretty passionate, this can however often show as frustration when I don't get things working, or by being overly excited about all sorts of nerdy details I for some reason enjoy. Apart from that, I'm pretty calm.
 
 
 ### Positivity
-I'm a realist, but my team often sees me as positive and encouraging.
+I'm a realist, but my team often sees me as positive and encouraging. This means I play the devil's advocate when needed.
 
 ### Awareness
 
-I'm pretty self-aware and steer clear of overthinking—been there, done that with anxiety. 
+I'm pretty self-aware and try to steer clear of overthinking. I've spent enough time being anxious.
 
 ## Interaction style
 
-### Assertivness
+### Assertiveness
 I can be assertive if needed, but my motto is "listen first, then talk."
 
 ### Liveliness
