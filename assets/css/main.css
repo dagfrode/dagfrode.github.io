@@ -175,6 +175,7 @@ header{
   display: flex;
   flex-direction: row;
   gap:15px;
+  overflow: auto;
 }
 
 header a{
