@@ -1,7 +1,7 @@
 # What I’m doing now
 (This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.)
 
-<!-->Keep<-->
+<!--Keep-->
 
 Updated March 13th, 2024, home in Oslo.
 
@@ -33,7 +33,7 @@ Current talk ideas:
 - "Mental health; a systems approach" - looking at mental health by looking at the ourselves as a set of systems and looking at how to take care of yourselves. Sort of a ownsers manual.
 - Sustainable accessibility / Accessible CI/CD - For accessibility to be sustainable there must be easy ways to maintain it and clear processes for both automatic and manual testing.
 
-<!--> Keep <-->
+<!-- Keep -->
 ## Earlier updates
-- [March 6th 2024](/now/2024.03.13)
+- [March 13th 2024](/now/2024.03.13)
 - [March 6th 2024](/now/2024.03.06)
