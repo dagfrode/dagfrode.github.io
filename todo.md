@@ -1,4 +1,19 @@
 # TODO
+
+- Fix menu break over multi lines - hide it on mobile
+- add talks, summaries to menu
+- add summary for slow productivity
+   - start
+- add content for talks,
+  - identify material and dump it in files for each
+  - add task for each
+- add content for portfolio
+  - identify material and dump it in files for each
+  - add task for each
+
+
+## About
+
 Things I want to do with this website
 
 - share ideas i find interesting
