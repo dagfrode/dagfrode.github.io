@@ -1,9 +1,9 @@
 # Bærekraftig universiell utforming
 
-Presentation format: talk / lightning talk
-Keywords:
-Relevant conferances: conferences - JavaZone - NDC- JsConf - Reactconf?
-Submitted to: 
+- Presentation format: talk / lightning talk
+- Keywords:
+- Relevant conferances: conferences - JavaZone - NDC- JsConf - Reactconf?
+- Submitted to: 
 
 
 ## Summary
@@ -48,6 +48,7 @@ Denne talken er for de som ønsker å løfte den universielle utformingen i løs
 
 
 ## Information for the program commitee
+
 > Please include any information relevant to the program committee that you do not want to include in your public presentation profile. For example, you can give us your motivation for speaking at JavaZone, include links to videos and slides from previous speaker engagements or any other relevant information for choosing your talk.
 
 Ønsker muligheten til å dele våre erfaringer med å bygge universiell utforming inn i teamets prosesser for å gjøre arbeidet så sømmløst som mulig.
