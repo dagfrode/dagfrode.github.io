@@ -1,5 +1,7 @@
 # Notes about the 6 working geniuses
 
+Published: 2024.03.22
+
 There are 6 work geniuses. everyone have two 
 that gives them energy. two that are neutral 
 and two that drains them.
@@ -30,3 +32,8 @@ the geniuses are:
 - frustration - galvanizing
 - frustration - tenacity
 
+
+## Changelog
+
+### 2024.03.26
+Added changelog

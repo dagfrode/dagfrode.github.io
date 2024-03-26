@@ -1,5 +1,7 @@
 # Notes about using your voice
 
+Published: 2024.03.20
+
 Sources: https://www.youtube.com/watch?v=CuaY4qe4V34
 
 - rate of speach
@@ -20,3 +22,9 @@ Sources: https://www.youtube.com/watch?v=CuaY4qe4V34
 - pausing
     - gives time to comprehend
     - gives time to listen and process to the audience
+
+
+## Changelog
+
+### 2024.03.26
+Added changelog
