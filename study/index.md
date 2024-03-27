@@ -5,6 +5,12 @@ a list of learning activities ive been up too.
 ## March 2024
 
 ### Week 12
+- 📺📝 Learned about [The Result Pyramid](/notes/results-pyramid)
+- Got a lot more practical experience with Zod and react-form-hook
+- Learned and set up e2e testing with [Playwright](https://playwright.dev/)
+- Finished 📗🎧 [Slow Productivity](/notes/slow-productivity)
+
+### Week 12
 - 📺 📝 [How to use your voice](/notes/vocal)
 - 🤓 Read up on [zod](https://zod.dev) [Learn Zod in 30 minutes](https://www.youtube.com/watch?v=L6BE-U3oy80) and [react-form-hook](https://react-hook-form.com/) and how [react-form-hook and zod can be used together] (https://www.youtube.com/watch?v=cc_xmawJ8Kg)
 - 📺 [the 6 working geniuses](https://youtu.be/iscwJh9Cugk) 📝[notes on the 6 working geniuses](/notes/6wg)
