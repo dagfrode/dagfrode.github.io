@@ -4,7 +4,8 @@ a list of learning activities ive been up too.
 
 ## March 2024
 
-### Week 12
+### Week 13
+- 🎧 [Tim Ferrish Show with Seth Godin about creativity and writing](https://pca.st/episode/67a89d3a-bb7e-4c68-a88e-844af163827b]
 - 📺📝 Learned about [The Result Pyramid](/notes/results-pyramid)
 - Got a lot more practical experience with Zod and react-form-hook
 - Learned and set up e2e testing with [Playwright](https://playwright.dev/)
