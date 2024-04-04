@@ -64,4 +64,4 @@ The bookmarklet works by setting up shift + scroll to change the font size in th
 
 ```
 </details>
-```
+
