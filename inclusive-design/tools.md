@@ -11,7 +11,7 @@ The bookmarklet works by setting up shift + scroll to change the font size in th
 <br/>
 <br/>
 
-This bookmarklet it based on [Jonathan Cuthbert's - Font Size Bookmarklet] https://gist.github.com/cuth/01359c29f73065bc0eb8
+This bookmarklet it based on [Jonathan Cuthbert's - Font Size Bookmarklet](https://gist.github.com/cuth/01359c29f73065bc0eb8)
 
 <br/>
 <br/>
