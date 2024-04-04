@@ -16,6 +16,10 @@ This bookmarklet it based on [Jonathan Cuthbert's - Font Size Bookmarklet] https
 <br/>
 <br/>
 
+[Feel free to copy or come with suggestions on GitHub](https://github.com/dagfrode/dagfrode.github.io/blob/main/inclusive-design/tools.md)
+
+<br/>
+<br/>
 <details>
 <summary>Code</summary>
 ```
