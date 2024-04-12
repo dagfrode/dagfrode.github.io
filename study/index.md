@@ -4,6 +4,13 @@ a list of learning activities ive been up too.
 
 ## March 2024
 
+### Week 15
+
+- Learned about building packages in monorepos with Lerna
+  - 📺 [Modern Lerna Walkthrough](https://www.youtube.com/watch?v=1oxFYphTS4Y)
+  - 📺 [Nx Quickstart - How to Scale a JavaScript Project](https://www.youtube.com/watch?v=VUyBY72mwrQ)
+  - 📺 [Introducing Ladle | Vojtech Miksu | ViteConf 2022](https://www.youtube.com/watch?v=zmUxP8mfT6Q)
+
 ### Week 14
 
 - 📺 JTBD
