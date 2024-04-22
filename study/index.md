@@ -2,7 +2,15 @@
 
 a list of learning activities ive been up too.
 
-## March 2024
+## April 2024
+
+### Week 17
+
+### Week 16
+
+- Learned about [holding efficent meetings](/meetings/)
+- 🎧 [Never Split the Difference: Negotiating as if Your Life Depended on It](https://www.goodreads.com/book/show/123857637-never-split-the-difference)
+- [Tim Ferrish Show with Martha Beck about living beyond truth, living with compassion](https://tim.blog/2024/04/17/martha-beck/)
 
 ### Week 15
 
@@ -19,6 +27,8 @@ a list of learning activities ive been up too.
 - Meet up with accesability faggruppe
   - started on questioneer
   - created a text [resize tool](/inclusive-design/tools)
+
+## March 2024
 
 ### Week 13
 
