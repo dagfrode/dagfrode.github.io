@@ -46,8 +46,28 @@ Creat an agenda to
 - Process and time:
 -
 
+### Breef
+
+- Why do I need you to talk?
+  - To whom?
+- What should you deliver?
+  - Goal with your presentation
+  - Restraints
+    - Time
+    - Slides
+- Pep-talk
+
 ## Meeting minutes
 
 - What was informed?
 - What was decided?
 - What tasks were agreed on and who does them?
+
+### 6 thinking hats
+
+- green - creative
+- yellow - positive
+- red - feelings
+- black - critical
+- white - information
+- blue - process
