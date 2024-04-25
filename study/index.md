@@ -6,6 +6,8 @@ a list of learning activities ive been up too.
 
 ### Week 17
 
+- 🎧 [Åpen kilde om rollemodeller innen realfag](https://open.spotify.com/episode/24CVnnEFR4tPJ2Xmk8e76Z?si=QA3LMEgYSimhNf2V74Wtkg)
+
 ### Week 16
 
 - Learned about [holding efficent meetings](/meetings/)
