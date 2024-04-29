@@ -5,7 +5,10 @@ a list of learning activities ive been up too.
 ## April 2024
 
 ### Week 17
-
+- Learned more about WCAG
+- Got to try my hands ont intervjuing again
+- Learned a lot about teeth, mineralisation, retainer floss etc
+- Learned more about [holding efficent meetings](/meetings/)
 - 🎧 [Åpen kilde om rollemodeller innen realfag](https://open.spotify.com/episode/24CVnnEFR4tPJ2Xmk8e76Z?si=QA3LMEgYSimhNf2V74Wtkg)
 
 ### Week 16
