@@ -2,9 +2,34 @@
 
 a list of learning activities ive been up too.
 
+## May 2024
+
+
+
+### Week 21
+
+- started reading the courage to be disliked after it popped up in multiple of my channels independently.
+  - Taks about [Teleology](https://en.wikipedia.org/wiki/Teleology) so far. Every process has a goal. Even if the consequences of the process is unwanted you still have to understand what goals the process server to change it (or at least that is my interpretation based on the book)
+
+### Week 20
+- Started reading Body keeps the score again
+- Lots of Dr. K and healthy gamer
+- Long walk with lots of ideas and a new format for exercise / notataking
+
+### Week 19
+- 
+
+### Week 18
+- Designed workshop for accessebility
+
 ## April 2024
 
 ### Week 17
+- Learned more about WCAG
+- Got to try my hands ont intervjuing again
+- Learned a lot about teeth, mineralisation, retainer floss etc
+- Learned more about [holding efficent meetings](/meetings/)
+- 🎧 [Åpen kilde om rollemodeller innen realfag](https://open.spotify.com/episode/24CVnnEFR4tPJ2Xmk8e76Z?si=QA3LMEgYSimhNf2V74Wtkg)
 
 ### Week 16
 
