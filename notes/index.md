@@ -1,5 +1,6 @@
 # Notes
 
+- 2024.10.06 [Der ingen skulle tru at nokon kunne reagera](./where-nobody-could-react.md)
 - 2024.08.30 [Yoga Nidra / Non-Sleep Deep Rest](./nsdr)
 - 2024.08.30 [Breath work](./bw)
 - 2024.06.05 [Getting an IT job in norway](./it-job-in-norway)
