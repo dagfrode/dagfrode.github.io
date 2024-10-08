@@ -295,7 +295,7 @@ body.presentation #main_content {
 }
 
 body.presentation main{
-  width:100%;
+  max-width:100%;
 }
 
 body.presentation .slide {
@@ -344,7 +344,8 @@ body.presentation h2 {
   border-bottom: none;
 }
 
-body.presentation h3 {
+body.presentation h3, 
+body.presentation h4 {
   font-size: 4rem;
   margin: 0;
   margin-top: 0;
@@ -352,7 +353,6 @@ body.presentation h3 {
   border-bottom: .2rem solid var(--theme-header-underline);
 }
 
-body.presentation h4,
 body.presentation h5,
 body.presentation h6 {
   display: none;
