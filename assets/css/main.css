@@ -151,7 +151,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  border-bottom: 1px solid var(--theme-header);
+  border-bottom: 1px solid var(--theme-header-underline);
   margin-top: 4rem;
 }
 
@@ -321,7 +321,7 @@ body.presentation .slide-body {
   margin-bottom: 0;
 }
 
-body.presentation #header_wrap {
+body.presentation header {
   display: none;
 }
 
@@ -329,7 +329,7 @@ body.presentation .slide-body>p {
   display: none;
 }
 
-body.presentation #footer_wrap {
+body.presentation footer {
   display: none;
 }
 
@@ -344,9 +344,15 @@ body.presentation h2 {
   border-bottom: none;
 }
 
-body.presentation h3, 
-body.presentation h4 {
+body.presentation h3 {
   font-size: 4rem;
+  margin: 0;
+  margin-top: 0;
+  padding: 2rem 5rem;
+  border-bottom: .2rem solid var(--theme-header-underline);
+}
+body.presentation h4 {
+  font-size: 3rem;
   margin: 0;
   margin-top: 0;
   padding: 2rem 5rem;
