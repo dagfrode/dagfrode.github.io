@@ -294,6 +294,10 @@ body.presentation #main_content {
   padding: 0;
 }
 
+body.presentation main{
+  width:100%;
+}
+
 body.presentation .slide {
   margin: 0;
   display: inline-block;
