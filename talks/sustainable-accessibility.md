@@ -65,5 +65,3 @@ hva er kapittlene
     - prosedyre for manuelle tester
   -
 - 3 - hvilke erfaringer har vi gjort oss?
-
-22 slides
