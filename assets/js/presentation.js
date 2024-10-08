@@ -35,7 +35,7 @@ for (var i = 0; i < content.children.length; i++) {
         currentSection;
       newContent +=
         "<div class='page-number'>" +
-        currentPage +
+        (currentPage + 1) +
         "/" +
         numberOfPages +
         "</div>";
