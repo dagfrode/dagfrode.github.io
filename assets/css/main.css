@@ -251,3 +251,123 @@ header a{
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+/*Presentation*/
+/* --------------------- */
+
+.presentation-only, .page-number {
+  display: none;
+}
+
+.page-number{
+  position:absolute;
+  right:20px;
+  bottom:20px;
+}
+
+/* body.presentation {
+  background: black;
+  color: var(--main-pink);
+} */
+
+body.presentation .chapter-list{
+  display: block;
+  font-family: monospace;
+  font-size: 3rem;
+}
+
+.chapter-list .seen{
+  opacity: .3;
+}
+
+body.presentation .wip {
+  display: none;
+}
+
+body.presentation .presentation-only, body.presentation .page-number {
+  display: block;
+}
+
+body.presentation #main_content {
+  max-width: none;
+  padding: 0;
+}
+
+body.presentation .slide {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body.presenter-mode .slide {
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+  height: 50vh;
+  box-sizing: border-box;
+}
+
+body.presentation .slide-body {
+  padding: 5rem;
+
+  margin-bottom: 0;
+}
+
+body.presentation #header_wrap {
+  display: none;
+}
+
+body.presentation .slide-body>p {
+  display: none;
+}
+
+body.presentation #footer_wrap {
+  display: none;
+}
+
+body.presentation h1,
+body.presentation h2 {
+  margin: 15rem 5rem;
+  font-size: 7rem;
+  text-align: center;
+}
+
+body.presentation h2 {
+  border-bottom: none;
+}
+
+body.presentation h3 {
+  font-size: 4rem;
+  margin: 0;
+  margin-top: 0;
+  padding: 2rem 5rem;
+  border-bottom: .2rem solid var(--theme-header-underline);
+}
+
+body.presentation h4,
+body.presentation h5,
+body.presentation h6 {
+  display: none;
+}
+
+body.presentation object {
+  max-width: 80%;
+  max-height: 50vh;
+  margin: 5% 10%;
+}
+
+body.presentation-mode object {
+  margin: 1% 15% 1% 15%;
+}
+
+body.presentation table,
+body.presentation ul,
+body.presentation blockquote,
+body.presentation figcaption {
+  display: none;
+}
+/*End presentation*/

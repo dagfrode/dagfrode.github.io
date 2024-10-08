@@ -1,10 +1,36 @@
 # WIP: Bærekraftig universiell utforming - fra sjekkliste til prosess
 
-Mitt navn er Dag Frode, jeg jobber som utvikler i Sparebank 1 utvikling, hvor jeg har vært nå i ca 7 måneder. Før det har jeg blant annet vørt konsulent hos Bekk. I dag skal jeg snakke om hvordan vi jobber med universell utforming i SpareBank 1 utvikling.
+## Intro
 
-Jeg må innrømme at da jeg sendte in pitchen for dette foredraget var planen min å "løse" dette med å jobbe med universell utforming "en gang for alle". Jeg har nemmelig lest meg opp på det en rekke ganger før, men like vel vært forvirret og overveldet de gangene jeg har kommet inn et sted og skulle sjekke at løsningen vi har oppfyller kravene. Så da je gi mars i år tenkte "hva vil jeg føle meg trygg på om 7 måneder" så var det nettopp universell utforming jeg siktet meg inn på.
+Mitt navn er Dag Frode, jeg jobber som utvikler i Sparebank 1 utvikling, hvor jeg har vært nå i ca 7 måneder. Før det har jeg blant annet vært konsulent hos Bekk. I dag skal jeg snakke om hvordan vi jobber med universell utforming i SpareBank 1 utvikling.
+
+## Bakgrunn
+
+Jeg må innrømme at da jeg sendte in pitchen for dette foredraget var planen min å "løse" dette med å jobbe med universell utforming "en gang for alle". Jeg har nemmelig lest meg opp på universell utforming en rekke ganger før, men like vel vært forvirret og overveldet de gangene jeg har kommet inn et sted og skulle sjekke at løsningen vi har oppfyller kravene. Så da jeg i mars i år tenkte "hva vil jeg føle meg trygg på om 7 måneder" så var det nettopp universell utforming jeg siktet meg inn på. Jeg føler dessverre ikke at jeg har "løst" hvordan jobbe med universell utforming, men jeg har lært mye. Det er det jeg skal dele med dere nå.
+
+### Funksjonsnedsettninger
+
+#### Situasjonsbetingede
+
+#### Middlertidige
+
+#### Permanente
+
+### Universell utforming
+
+### Inklusiv design
+
+## Hva har jeg kommet frem til?
 
 Tidlig identifiserte jeg 3 ting jeg mener må være på plass for å jobbe med universell utforming på en bærekraftig måte. Med bærekraftig, mener jeg her en måte som vi klarer å oppretholde over tid og som ikke bare blir det siste en sjekker før en releaser noe for så å gleme å forholde seg til det neste året. De 3 tingene jeg mener må på plass for å jobbe bærekreaftig med universell utforming er: opplæring, prosess og verktøy. Altså gode enkle resurser som gjør at det er lett å lære og gjenlære hva som er viktig med universell utforming og hvordan lage universel utformede løsninger. Prosesser som legger til rette for at vi jobber gjevnt med det og ikke i skippertak. Og verktøy som støtter oss i det arbeidet vi gjør.
+
+### Opplæring
+
+### Prosess
+
+- hva er delene av en prosess?
+
+### Verktøy
 
 Det jeg ikke var klar over da jeg startet på dette, var hvor mye SpareBank1 alt har gjort med universell utforming, og hvor mange dyktige som alt jobbet med å løfte arbeidet vårt med dette. Kompetansen og engasjementet ble raskt tydelig da jeg kom inn i et team med flere uu illkjeler og da jeg ble med i fagruppen for Universell Utforming.
 
