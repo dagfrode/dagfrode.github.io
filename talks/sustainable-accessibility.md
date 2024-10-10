@@ -8,6 +8,14 @@ Mitt navn er Dag Frode, jeg jobber som utvikler i Sparebank 1 utvikling, hvor je
 
 Jeg må innrømme at da jeg sendte in pitchen for dette foredraget var planen min å "løse" dette med å jobbe med universell utforming "en gang for alle". Jeg har nemmelig lest meg opp på universell utforming en rekke ganger før, men like vel vært forvirret og overveldet de gangene jeg har kommet inn et nytt sted og skulle sjekke at løsningen vi har oppfyller kravene. Så da jeg i mars i år tenkte "hva vil jeg føle meg trygg på om 7 måneder" så var det nettopp universell utforming jeg tenkte på. Jeg føler dessverre ikke at jeg har "løst" hvordan jobbe med universell utforming, men jeg har lært mye. Det er det jeg skal dele med dere nå.
 
+Det jeg ikke var klar over da jeg startet på dette, var hvor mye som alt har gjort med universell utforming, og hvor mange dyktige som alt jobbet med å løfte arbeidet vårt med dette. Kompetansen og engasjementet ble raskt tydelig da jeg kom inn i et team med flere uu illkjeler og da jeg ble med i fagruppen for Universell Utforming.
+
+Jeg hadde tenkt å bruke mye tid på å lese litteratur og lage egne løsninger, men har i stedet følt at jeg har kommet til en skolebenk hvor jeg har lært fra kunnskapet og arbeidet til dyktige kollegaer. Det meste av det jeg kommer til å snakke om i dag er ting som alt ble gjort forskjellige steder i SpareBank1. Arbeidet jeg og faggruppen for universell utforming har gjort har i stor del vært å samle inn de måtene teamene alt jobber med universell utforming, konkretisere, formalisere og dele den kunnskapen, verktøyene og prosessene som teamene alt har hatt.
+
+Det arbeider vi har endt opp med å gjøre har endt opp med å være mer strategisk enn jeg hadde planlagt. Vi har jobbet med å finne ut av hvor vi er, hvor vi vil og hva som skal til for å komme dit. Oppsummert kan jeg si at vi er godt på vei, har mye vi kan lære av hverandre og en del vi kan gjøre for å forbedre opplæring og trygghet på universell utforming. Hvordan vi jobber med å komme dit er det jeg skal bruke resten av foredraget til å snakke om.
+
+Planen etter den ikke fult så korte introduksjonen er å først ta ett steg tilbake for å snakke om hva universell utforming er og hvorfor det er viktig. Vi kommer så inn på de prosessene vi jobber med og opplæringene og verktøyene vi brukre som del av den, før jeg runder av med noen av våre erfaringer.
+
 ### Teknisk er det en krevende sammensatt problemstilling
 
 I sikkerhet snakker en ofte om sikkerhet er som flere lag med svetsisk oste. Det er det hull i alle lagene, men så lenge det er minst et lag som dekker hele overflaten så er en trygg. Med universell utforming føles det innimellom som at det er omvendt. At en er den som prøver å komme seg gjennom alle disse lagene med ost. En kan kode inn aria labels og alt tekster så mye en vil i komponenter, men det hjelper ikke hvis de ikke blir fylt ut av de som bruker komponentene. Eller om de hardkoder de i et språk eller gir de dårlige verdier. For ikke å snakke om dynamisk innhold som lages av de som lager innhold. Når dette skal skje på tvers av et stort økosystem med mange autonome team og med mange forskjellige teknologier øker kompleksiteten ytterligere.
@@ -89,13 +97,9 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 
 ### Verktøy
 
-Det jeg ikke var klar over da jeg startet på dette, var hvor mye SpareBank1 alt har gjort med universell utforming, og hvor mange dyktige som alt jobbet med å løfte arbeidet vårt med dette. Kompetansen og engasjementet ble raskt tydelig da jeg kom inn i et team med flere uu illkjeler og da jeg ble med i fagruppen for Universell Utforming.
+#### Skjermleser
 
-Jeg hadde tenkt å bruke mye tid på å lese litteratur og lage egne løsninger, men har i stedet følt at jeg har kommet til en skolebenk hvor jeg har lært fra kunnskapet og arbeidet til dyktige kollegaer. Det meste av det jeg kommer til å snakke om i dag er ting som alt ble gjort forskjellige steder i SpareBank1. Arbeidet jeg og faggruppen for universell utforming har gjort har i stor del vært å samle inn de måtene teamene alt jobber med universell utforming, konkretisere, formalisere og dele den kunnskapen, verktøyene og prosessene som teamene alt har hatt.
-
-Det arbeider vi har endt opp med å gjøre har endt opp med å være mer strategisk enn jeg hadde planlagt. Vi har jobbet med å finne ut av hvor vi er, hvor vi vil og hva som skal til for å komme dit. Oppsummert kan jeg si at vi er godt på vei, har mye vi kan lære av hverandre og en del vi kan gjøre for å forbedre opplæring og trygghet på universell utforming. Hvordan vi jobber med å komme dit er det jeg skal bruke resten av foredraget til å snakke om.
-
-Planen etter den ikke fult så korte introduksjonen er å først ta ett steg tilbake for å snakke om hva universell utforming er og hvorfor det er viktig. Vi kommer så inn på de prosessene vi jobber med og opplæringene og verktøyene vi brukre som del av den, før jeg runder av med noen av våre erfaringer.
+#### plugins ...
 
 hva er kapittlene
 
