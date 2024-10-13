@@ -18,6 +18,25 @@ Planen etter den ikke fult så korte introduksjonen er å først ta ett steg til
 
 ### Teknisk er det en krevende sammensatt problemstilling
 
+<figure>
+<object data="./swiss_chees_slice.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+TODO split slides
+
+<figure>
+<object data="./swiss_chees_slices.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+TODO split slides
+
+<figure>
+<object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 I sikkerhet snakker en ofte om sikkerhet er som flere lag med svetsisk oste. Det er det hull i alle lagene, men så lenge det er minst et lag som dekker hele overflaten så er en trygg. Med universell utforming føles det innimellom som at det er omvendt. At en er den som prøver å komme seg gjennom alle disse lagene med ost. En kan kode inn aria labels og alt tekster så mye en vil i komponenter, men det hjelper ikke hvis de ikke blir fylt ut av de som bruker komponentene. Eller om de hardkoder de i et språk eller gir de dårlige verdier. For ikke å snakke om dynamisk innhold som lages av de som lager innhold. Når dette skal skje på tvers av et stort økosystem med mange autonome team og med mange forskjellige teknologier øker kompleksiteten ytterligere.
 
 Det var en av tingene jeg bommet på i dette prosjektet. Jeg så bare en uniforme platformen jeg om de fleste jeg snakket med jobbed med. Jeg så ikke alt det selskapet tilbyr og er. Alle teknologiene som er i bruk og alle måtene å jobbe på. Jeg gjorde den feilen som er så vanlig i denne jobbe, jeg så happy path og tenkte at det her bør kunne være enkelt å få til. Vi har jo et helt ypperlig komponentbibliotek som legger tilrette for universell utforming.
@@ -26,15 +45,37 @@ Men nok om hvor tungt og utfordrende det kan oppleves. Og la oss heller snakke h
 
 ### Funksjonsnedsettninger
 
+<figure>
+<object data="./wc.svg" type="image/svg+xml" ></object>
+<object data="./blind.svg" type="image/svg+xml" ></object>
+<object data="./invisible.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 En kan ikke snakke om universell utforming uten å snakke om funksjonsnedsettinger. Bakgrunnen til at vi gjør dette arbeidet er at vi selv om vi er mer like en ulike, er vi og forskjellige og har forskjellige behov. Det kan være situasjonsbetinget, middlertidig eller permanente funksjonsnedsettninger og tilsvarende behov.
 
 #### Situasjonsbetingede
+
+<figure>
+<object data="./situational.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Situasjonsbetingede funksjonsnedsettninger kan være
 
 #### Middlertidige
 
+<figure>
+<object data="./temporary.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 #### Permanente
+
+<figure>
+<object data="./permanent.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Dette tar oss videre til universell utforming.
 
@@ -52,17 +93,44 @@ Tidlig identifiserte jeg 3 ting jeg mener må være på plass for å jobbe med u
 
 ### Opplæring
 
+<figure>
+<object data="./education.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 opplæring er naturligvis viktig.
 
 #### noe mer intenst som et kurs
+
+<figure>
+<object data="./course.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 lære av noen som kan det og kan gi en god introduksjon til tema.
 
 #### Bygge empati og forståelse
 
+<figure>
+<object data="./empathy.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+TODO invisible slide
+
+<figure>
+<object data="./shoe.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 Jeg har et intrykk at det er blitt mer forståelse for behovet for universell utforming over årene. Jeg ser like vel for min egen del at det er viktig å gjevnlig oppsøke måter å kjenne utfordringene på kroppen for å oppretholde empati. Et eksempel her er at jeg har hat kognetiv forståelse og empati for synsnedsettninger, jeg har og brukt briller og filtere for å simulere flere forskjellig enedsettninger. Jeg har brukt skjermleser, men hadde ikke gjort det uten å kunne se samtidig. Så da var vi så heldige å ha inklude hos oss for å gå igjennom løsningene våre fikk jeg og flere noen aha oplevelser. Det var ting vi tok forgitt som vi kunne forstå fordi vi så hele sider p åen gang som det ikke var gode måter å forstå hvis en bare ser litt og litt. Og det viste seg at enkelte tekniske tiltak for å gjøre sidene mer universelt utformet ikke fungerte i gitte kontekster.
 
 #### Tilgjenglige resurser
+
+<figure>
+<object data="./resource.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e rmang eåpne resurser for universell utforming, men de kan være vanskelig å forstå. Ikke bare det, men det kan være vanskelig å løse problemstillinger selv om vi forstår kravene. Enkelte løsinger krever redesign av hele eller deler av sider.
 
@@ -72,25 +140,55 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 
 #### stilguide
 
+<figure>
+<object data="./style_guide.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 - farger og kontraster
 - fonter
   - dysleksi %?
 
 #### komponenter
 
+<figure>
+<object data="./components.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 - universelt utformede i seg selv
 - finnes gode whitelabel løsninger
 
 #### feature defenition
 
+<figure>
+<object data="./trmporary.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 #### skisser
 
+<figure>
+<object data="./sketch.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 #### utvikling
+
+<figure>
+<object data="./lint.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 - linting
 - automatiske tester
 
 #### testing
+
+<figure>
+<object data="./testing.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 - automatiserte tester
 - manuelle tester
@@ -99,7 +197,17 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 
 #### Skjermleser
 
+<figure>
+<object data="./screen_reader.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 #### plugins ...
+
+<figure>
+<object data="./extensions.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 hva er kapittlene
 
@@ -124,5 +232,4 @@ hva er kapittlene
   - testing
     - automatiske testverktøy
     - prosedyre for manuelle tester
-  -
 - 3 - hvilke erfaringer har vi gjort oss?
