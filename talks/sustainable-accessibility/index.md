@@ -18,21 +18,19 @@ Planen etter den ikke fult så korte introduksjonen er å først ta ett steg til
 
 ### Teknisk er det en krevende sammensatt problemstilling
 
-### Teknisk er det en krevende sammensatt problemstilling [presentation-only]
-
 <figure>
 <object data="./swiss_chees_slice.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-TODO split slides
+### Teknisk er det en krevende sammensatt problemstilling [presentation-only]
 
 <figure>
 <object data="./swiss_chees_slices.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-TODO split slides
+### Teknisk er det en krevende sammensatt problemstilling [presentation-only]
 
 <figure>
 <object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
@@ -123,7 +121,7 @@ lære av noen som kan det og kan gi en god introduksjon til tema.
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-TODO invisible slide
+#### Bygge empati og forståelse [presentation-only]
 
 <figure>
 <object data="./shoe.svg" type="image/svg+xml" ></object>
@@ -144,6 +142,8 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 ### Prosess
 
 - hva er delene av en prosess?
+
+todo bilde
 
 #### stilguide
 
@@ -180,17 +180,25 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-#### utvikling
+#### Utvikling
+
+tood linting
 
 <figure>
 <object data="./lint.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
+#### Utvikling [presentation-only]
+
+todo automated tests
+
 - linting
 - automatiske tester
 
 #### testing
+
+todo more slides?
 
 <figure>
 <object data="./testing.svg" type="image/svg+xml" ></object>
