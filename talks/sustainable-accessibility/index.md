@@ -18,6 +18,8 @@ Planen etter den ikke fult så korte introduksjonen er å først ta ett steg til
 
 ### Teknisk er det en krevende sammensatt problemstilling
 
+### Teknisk er det en krevende sammensatt problemstilling [presentation-only]
+
 <figure>
 <object data="./swiss_chees_slice.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
@@ -81,6 +83,11 @@ Dette tar oss videre til universell utforming.
 
 ### Universell utforming
 
+<figure>
+<object data="./uu.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 Universell utforming handler om å utforme eller tilrettelegge for at flest mulig skal kunne bruke noe uavhengig av funksjonsnedsettning.
 
 ### Inklusiv design
@@ -128,7 +135,7 @@ Jeg har et intrykk at det er blitt mer forståelse for behovet for universell ut
 #### Tilgjenglige resurser
 
 <figure>
-<object data="./resource.svg" type="image/svg+xml" ></object>
+<object data="./resources.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
