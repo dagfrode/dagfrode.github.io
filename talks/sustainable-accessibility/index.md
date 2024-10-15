@@ -16,21 +16,21 @@ Det arbeider vi har endt opp med å gjøre har endt opp med å være mer strateg
 
 Planen etter den ikke fult så korte introduksjonen er å først ta ett steg tilbake for å snakke om hva universell utforming er og hvorfor det er viktig. Vi kommer så inn på de prosessene vi jobber med og opplæringene og verktøyene vi brukre som del av den, før jeg runder av med noen av våre erfaringer.
 
-### Teknisk er det en krevende sammensatt problemstilling
+### Det en krevende sammensatt problemstilling
 
 <figure>
-<object data="./swiss_chees_slice.svg" type="image/svg+xml" ></object>
+<object data="./reverse_swiss_chees_model_2.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-### Teknisk er det en krevende sammensatt problemstilling [presentation-only]
+### Det en krevende sammensatt problemstilling [presentation-only]
 
 <figure>
-<object data="./swiss_chees_slices.svg" type="image/svg+xml" ></object>
+<object data="./reverse_swiss_chees_model_1.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-### Teknisk er det en krevende sammensatt problemstilling [presentation-only]
+### Det en krevende sammensatt problemstilling [presentation-only]
 
 <figure>
 <object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
@@ -46,9 +46,7 @@ Men nok om hvor tungt og utfordrende det kan oppleves. Og la oss heller snakke h
 ### Funksjonsnedsettninger
 
 <figure>
-<object data="./wc.svg" type="image/svg+xml" ></object>
-<object data="./blind.svg" type="image/svg+xml" ></object>
-<object data="./invisible.svg" type="image/svg+xml" ></object>
+<object data="./disability.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
@@ -92,7 +90,7 @@ Universell utforming handler om å utforme eller tilrettelegge for at flest muli
 
 jeg tror jeg må droppe disse to slidene. jeg klarer ikke definere det godt nok.
 
-## Hva har jeg kommet frem til?
+## Det jeg har kommet frem til
 
 Tidlig identifiserte jeg 3 ting jeg mener må være på plass for å jobbe med universell utforming på en bærekraftig måte. Med bærekraftig, mener jeg her en måte som vi klarer å oppretholde over tid og som ikke bare blir det siste en sjekker før en releaser noe for så å gleme å forholde seg til det neste året. De 3 tingene jeg mener må på plass for å jobbe bærekreaftig med universell utforming er: opplæring, prosess og verktøy. Altså gode enkle resurser som gjør at det er lett å lære og gjenlære hva som er viktig med universell utforming og hvordan lage universel utformede løsninger. Prosesser som legger til rette for at vi jobber gjevnt med det og ikke i skippertak. Og verktøy som støtter oss i det arbeidet vi gjør.
 
@@ -105,7 +103,7 @@ Tidlig identifiserte jeg 3 ting jeg mener må være på plass for å jobbe med u
 
 opplæring er naturligvis viktig.
 
-#### noe mer intenst som et kurs
+#### Kurs
 
 <figure>
 <object data="./course.svg" type="image/svg+xml" ></object>
@@ -145,7 +143,7 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 
 todo bilde
 
-#### stilguide
+#### Stilguide
 
 <figure>
 <object data="./style_guide.svg" type="image/svg+xml" ></object>
@@ -156,7 +154,7 @@ todo bilde
 - fonter
   - dysleksi %?
 
-#### komponenter
+#### Komponenter
 
 <figure>
 <object data="./components.svg" type="image/svg+xml" ></object>
@@ -166,14 +164,14 @@ todo bilde
 - universelt utformede i seg selv
 - finnes gode whitelabel løsninger
 
-#### feature defenition
+#### System design
 
 <figure>
 <object data="./trmporary.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-#### skisser
+#### Skisser
 
 <figure>
 <object data="./sketch.svg" type="image/svg+xml" ></object>
@@ -191,12 +189,17 @@ tood linting
 
 #### Utvikling [presentation-only]
 
+<figure>
+<object data="./automated_tests.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 todo automated tests
 
 - linting
 - automatiske tester
 
-#### testing
+#### Testing
 
 todo more slides?
 
@@ -217,34 +220,9 @@ todo more slides?
 <figcaption>Todo add caption</figcaption>
 </figure>
 
-#### plugins ...
+#### Automatiserte tester
 
 <figure>
 <object data="./extensions.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
-
-hva er kapittlene
-
-- 1 - hva er universel utforming?
-  - ett sett med krav
-  - formålet er inklusivt design
-  - middlertidig funksjonsnedsettelser
-  - grunnlag
-    - opplæring
-    - prosess
-    - verktøy
-- 2 - hvordan har vi bygge det inn i prosessene våre?
-  - design
-    - design guidelines
-    - komponenter
-    - annet?
-  - koding
-    - komponenter
-    - linting
-  - ci/cd
-    - tester
-  - testing
-    - automatiske testverktøy
-    - prosedyre for manuelle tester
-- 3 - hvilke erfaringer har vi gjort oss?
