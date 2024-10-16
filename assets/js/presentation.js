@@ -89,7 +89,7 @@ newContent += "\n</div>\n";
 
 content.innerHTML = newContent;
 
-document.addEventListener("keypress", keyDownTextField, false);
+document.addEventListener("keydown", keyDownTextField, false);
 
 var presentation = false;
 var presenterMode = false;
