@@ -16,7 +16,26 @@ Det arbeider vi har endt opp med å gjøre har endt opp med å være mer strateg
 
 Planen etter den ikke fult så korte introduksjonen er å først ta ett steg tilbake for å snakke om hva universell utforming er og hvorfor det er viktig. Vi kommer så inn på de prosessene vi jobber med og opplæringene og verktøyene vi brukre som del av den, før jeg runder av med noen av våre erfaringer.
 
-### Teknisk er det en krevende sammensatt problemstilling
+### Det en krevende sammensatt problemstilling
+
+<figure>
+<object data="./reverse_swiss_chees_model_2.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+### Det en krevende sammensatt problemstilling [presentation-only]
+
+<figure>
+<object data="./reverse_swiss_chees_model_1.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+### Det en krevende sammensatt problemstilling [presentation-only]
+
+<figure>
+<object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 I sikkerhet snakker en ofte om sikkerhet er som flere lag med svetsisk oste. Det er det hull i alle lagene, men så lenge det er minst et lag som dekker hele overflaten så er en trygg. Med universell utforming føles det innimellom som at det er omvendt. At en er den som prøver å komme seg gjennom alle disse lagene med ost. En kan kode inn aria labels og alt tekster så mye en vil i komponenter, men det hjelper ikke hvis de ikke blir fylt ut av de som bruker komponentene. Eller om de hardkoder de i et språk eller gir de dårlige verdier. For ikke å snakke om dynamisk innhold som lages av de som lager innhold. Når dette skal skje på tvers av et stort økosystem med mange autonome team og med mange forskjellige teknologier øker kompleksiteten ytterligere.
 
@@ -26,19 +45,44 @@ Men nok om hvor tungt og utfordrende det kan oppleves. Og la oss heller snakke h
 
 ### Funksjonsnedsettninger
 
+<figure>
+<object data="./disability.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 En kan ikke snakke om universell utforming uten å snakke om funksjonsnedsettinger. Bakgrunnen til at vi gjør dette arbeidet er at vi selv om vi er mer like en ulike, er vi og forskjellige og har forskjellige behov. Det kan være situasjonsbetinget, middlertidig eller permanente funksjonsnedsettninger og tilsvarende behov.
 
 #### Situasjonsbetingede
+
+<figure>
+<object data="./situational.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Situasjonsbetingede funksjonsnedsettninger kan være
 
 #### Middlertidige
 
+<figure>
+<object data="./temporary.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 #### Permanente
+
+<figure>
+<object data="./permanent.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Dette tar oss videre til universell utforming.
 
 ### Universell utforming
+
+<figure>
+<object data="./uu.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Universell utforming handler om å utforme eller tilrettelegge for at flest mulig skal kunne bruke noe uavhengig av funksjonsnedsettning.
 
@@ -46,23 +90,50 @@ Universell utforming handler om å utforme eller tilrettelegge for at flest muli
 
 jeg tror jeg må droppe disse to slidene. jeg klarer ikke definere det godt nok.
 
-## Hva har jeg kommet frem til?
+## Det jeg har kommet frem til
 
 Tidlig identifiserte jeg 3 ting jeg mener må være på plass for å jobbe med universell utforming på en bærekraftig måte. Med bærekraftig, mener jeg her en måte som vi klarer å oppretholde over tid og som ikke bare blir det siste en sjekker før en releaser noe for så å gleme å forholde seg til det neste året. De 3 tingene jeg mener må på plass for å jobbe bærekreaftig med universell utforming er: opplæring, prosess og verktøy. Altså gode enkle resurser som gjør at det er lett å lære og gjenlære hva som er viktig med universell utforming og hvordan lage universel utformede løsninger. Prosesser som legger til rette for at vi jobber gjevnt med det og ikke i skippertak. Og verktøy som støtter oss i det arbeidet vi gjør.
 
 ### Opplæring
 
+<figure>
+<object data="./education.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 opplæring er naturligvis viktig.
 
-#### noe mer intenst som et kurs
+#### Kurs
+
+<figure>
+<object data="./course.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 lære av noen som kan det og kan gi en god introduksjon til tema.
 
 #### Bygge empati og forståelse
 
+<figure>
+<object data="./empathy.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+#### Bygge empati og forståelse [presentation-only]
+
+<figure>
+<object data="./shoe.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
 Jeg har et intrykk at det er blitt mer forståelse for behovet for universell utforming over årene. Jeg ser like vel for min egen del at det er viktig å gjevnlig oppsøke måter å kjenne utfordringene på kroppen for å oppretholde empati. Et eksempel her er at jeg har hat kognetiv forståelse og empati for synsnedsettninger, jeg har og brukt briller og filtere for å simulere flere forskjellig enedsettninger. Jeg har brukt skjermleser, men hadde ikke gjort det uten å kunne se samtidig. Så da var vi så heldige å ha inklude hos oss for å gå igjennom løsningene våre fikk jeg og flere noen aha oplevelser. Det var ting vi tok forgitt som vi kunne forstå fordi vi så hele sider p åen gang som det ikke var gode måter å forstå hvis en bare ser litt og litt. Og det viste seg at enkelte tekniske tiltak for å gjøre sidene mer universelt utformet ikke fungerte i gitte kontekster.
 
 #### Tilgjenglige resurser
+
+<figure>
+<object data="./resources.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e rmang eåpne resurser for universell utforming, men de kan være vanskelig å forstå. Ikke bare det, men det kan være vanskelig å løse problemstillinger selv om vi forstår kravene. Enkelte løsinger krever redesign av hele eller deler av sider.
 
@@ -70,27 +141,72 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 
 - hva er delene av en prosess?
 
-#### stilguide
+todo bilde
+
+#### Stilguide
+
+<figure>
+<object data="./style_guide.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 - farger og kontraster
 - fonter
   - dysleksi %?
 
-#### komponenter
+#### Komponenter
+
+<figure>
+<object data="./components.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 - universelt utformede i seg selv
 - finnes gode whitelabel løsninger
 
-#### feature defenition
+#### System design
 
-#### skisser
+<figure>
+<object data="./trmporary.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
-#### utvikling
+#### Skisser
+
+<figure>
+<object data="./sketch.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+#### Utvikling
+
+tood linting
+
+<figure>
+<object data="./lint.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+#### Utvikling [presentation-only]
+
+<figure>
+<object data="./automated_tests.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+todo automated tests
 
 - linting
 - automatiske tester
 
-#### testing
+#### Testing
+
+todo more slides?
+
+<figure>
+<object data="./testing.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 - automatiserte tester
 - manuelle tester
@@ -99,30 +215,14 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 
 #### Skjermleser
 
-#### plugins ...
+<figure>
+<object data="./screen_reader.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
-hva er kapittlene
+#### Automatiserte tester
 
-- 1 - hva er universel utforming?
-  - ett sett med krav
-  - formålet er inklusivt design
-  - middlertidig funksjonsnedsettelser
-  - grunnlag
-    - opplæring
-    - prosess
-    - verktøy
-- 2 - hvordan har vi bygge det inn i prosessene våre?
-  - design
-    - design guidelines
-    - komponenter
-    - annet?
-  - koding
-    - komponenter
-    - linting
-  - ci/cd
-    - tester
-  - testing
-    - automatiske testverktøy
-    - prosedyre for manuelle tester
-  -
-- 3 - hvilke erfaringer har vi gjort oss?
+<figure>
+<object data="./extensions.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
