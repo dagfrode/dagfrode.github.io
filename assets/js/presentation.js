@@ -89,7 +89,7 @@ newContent += "\n</div>\n";
 
 content.innerHTML = newContent;
 
-document.addEventListener("onkeypress", keyDownTextField, false);
+document.addEventListener("onkeydown", keyDownTextField, false);
 
 var presentation = false;
 var presenterMode = false;
@@ -106,7 +106,7 @@ function keyDownTextField(e) {
     next();
   }
 
-  if (keyCode == 80) {
+  if (keyCode == 80 && e.shiftKey) {
     togglePresentation();
   }
 
