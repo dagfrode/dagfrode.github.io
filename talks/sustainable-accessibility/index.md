@@ -1,10 +1,8 @@
-# WIP: Bærekraftig universiell utforming - fra sjekkliste til prosess
+# Bærekraftig universiell utforming - fra sjekkliste til prosess
 
-## Intro
+## Introduksjon
 
 Mitt navn er Dag Frode, jeg jobber som utvikler i Sparebank 1 utvikling, hvor jeg har vært nå i ca 7 måneder. Før det har jeg blant annet vært konsulent hos Bekk. I dag skal jeg snakke om hvordan vi jobber med universell utforming i SpareBank 1 utvikling.
-
-## Bakgrunn
 
 Jeg må innrømme at da jeg sendte in pitchen for dette foredraget var planen min å "løse" dette med å jobbe med universell utforming "en gang for alle". Jeg har nemmelig lest meg opp på universell utforming en rekke ganger før, men like vel vært forvirret og overveldet de gangene jeg har kommet inn et nytt sted og skulle sjekke at løsningen vi har oppfyller kravene. Så da jeg i mars i år tenkte "hva vil jeg føle meg trygg på om 7 måneder" så var det nettopp universell utforming jeg tenkte på. Jeg føler dessverre ikke at jeg har "løst" hvordan jobbe med universell utforming, men jeg har lært mye. Det er det jeg skal dele med dere nå.
 
@@ -14,36 +12,28 @@ Jeg hadde tenkt å bruke mye tid på å lese litteratur og lage egne løsninger,
 
 Det arbeider vi har endt opp med å gjøre har endt opp med å være mer strategisk enn jeg hadde planlagt. Vi har jobbet med å finne ut av hvor vi er, hvor vi vil og hva som skal til for å komme dit. Oppsummert kan jeg si at vi er godt på vei, har mye vi kan lære av hverandre og en del vi kan gjøre for å forbedre opplæring og trygghet på universell utforming. Hvordan vi jobber med å komme dit er det jeg skal bruke resten av foredraget til å snakke om.
 
+### Gjøre det enkelt å utforme universelt
+
+<figure>
+<object data="./overveldet.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+sb1u gjør mye for å
+
+har lyst til å løse uu
+
+det bør jo være enkelt i et selskap som er så på som SB1U. gode komponenter osv. kan vel dele opp problemet og spre ansvaret utover så testingen underveis ikke blir så stor og vi kan slippe unna testingen til slutt?
+
+kanskje lage noe som hjelper deg med testingen
+
+## Hva legger jeg i Bærekraftig universiell utforming? [presentation-only]
+
+## Bakgrunn
+
 Planen etter den ikke fult så korte introduksjonen er å først ta ett steg tilbake for å snakke om hva universell utforming er og hvorfor det er viktig. Vi kommer så inn på de prosessene vi jobber med og opplæringene og verktøyene vi brukre som del av den, før jeg runder av med noen av våre erfaringer.
 
-### Det en krevende sammensatt problemstilling
-
-<figure>
-<object data="./reverse_swiss_chees_model_2.svg" type="image/svg+xml" ></object>
-<figcaption>Todo add caption</figcaption>
-</figure>
-
-### Det en krevende sammensatt problemstilling [presentation-only]
-
-<figure>
-<object data="./reverse_swiss_chees_model_1.svg" type="image/svg+xml" ></object>
-<figcaption>Todo add caption</figcaption>
-</figure>
-
-### Det en krevende sammensatt problemstilling [presentation-only]
-
-<figure>
-<object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
-<figcaption>Todo add caption</figcaption>
-</figure>
-
-I sikkerhet snakker en ofte om sikkerhet er som flere lag med svetsisk oste. Det er det hull i alle lagene, men så lenge det er minst et lag som dekker hele overflaten så er en trygg. Med universell utforming føles det innimellom som at det er omvendt. At en er den som prøver å komme seg gjennom alle disse lagene med ost. En kan kode inn aria labels og alt tekster så mye en vil i komponenter, men det hjelper ikke hvis de ikke blir fylt ut av de som bruker komponentene. Eller om de hardkoder de i et språk eller gir de dårlige verdier. For ikke å snakke om dynamisk innhold som lages av de som lager innhold. Når dette skal skje på tvers av et stort økosystem med mange autonome team og med mange forskjellige teknologier øker kompleksiteten ytterligere.
-
-Det var en av tingene jeg bommet på i dette prosjektet. Jeg så bare en uniforme platformen jeg om de fleste jeg snakket med jobbed med. Jeg så ikke alt det selskapet tilbyr og er. Alle teknologiene som er i bruk og alle måtene å jobbe på. Jeg gjorde den feilen som er så vanlig i denne jobbe, jeg så happy path og tenkte at det her bør kunne være enkelt å få til. Vi har jo et helt ypperlig komponentbibliotek som legger tilrette for universell utforming.
-
-Men nok om hvor tungt og utfordrende det kan oppleves. Og la oss heller snakke hva universell utforming er, hvorfor det er viktig og hvordan vi kan jobbe med å gjøre det enkelt for oss selv å jobbe med det.
-
-### Funksjonsnedsettninger
+### Hva er universell utforming?
 
 <figure>
 <object data="./disability.svg" type="image/svg+xml" ></object>
@@ -86,13 +76,54 @@ Dette tar oss videre til universell utforming.
 
 Universell utforming handler om å utforme eller tilrettelegge for at flest mulig skal kunne bruke noe uavhengig av funksjonsnedsettning.
 
+det er mange verktøy som kan hjelpe deg med testing, samtidig er det mange av kravene som krever at testen vurderer om meningen i innholdet er beholdt og det er ikke like lett å automatisere.
+
 ### Inklusiv design
 
 jeg tror jeg må droppe disse to slidene. jeg klarer ikke definere det godt nok.
 
-## Det jeg har kommet frem til
+<figure>
+<object data="./id.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+## Konklusjon
+
+### Det en krevende sammensatt problemstilling
+
+<figure>
+<object data="./reverse_swiss_chees_model_2.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+### Det en krevende sammensatt problemstilling [presentation-only]
+
+<figure>
+<object data="./reverse_swiss_chees_model_1.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+### Det en krevende sammensatt problemstilling [presentation-only]
+
+<figure>
+<object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
+
+I sikkerhet snakker en ofte om sikkerhet er som flere lag med svetsisk oste. Det er det hull i alle lagene, men så lenge det er minst et lag som dekker hele overflaten så er en trygg. Med universell utforming føles det innimellom som at det er omvendt. At en er den som prøver å komme seg gjennom alle disse lagene med ost. En kan kode inn aria labels og alt tekster så mye en vil i komponenter, men det hjelper ikke hvis de ikke blir fylt ut av de som bruker komponentene. Eller om de hardkoder de i et språk eller gir de dårlige verdier. For ikke å snakke om dynamisk innhold som lages av de som lager innhold. Når dette skal skje på tvers av et stort økosystem med mange autonome team og med mange forskjellige teknologier øker kompleksiteten ytterligere.
+
+Det var en av tingene jeg bommet på i dette prosjektet. Jeg så bare en uniforme platformen jeg om de fleste jeg snakket med jobbed med. Jeg så ikke alt det selskapet tilbyr og er. Alle teknologiene som er i bruk og alle måtene å jobbe på. Jeg gjorde den feilen som er så vanlig i denne jobbe, jeg så happy path og tenkte at det her bør kunne være enkelt å få til. Vi har jo et helt ypperlig komponentbibliotek som legger tilrette for universell utforming.
+
+Men nok om hvor tungt og utfordrende det kan oppleves. Og la oss heller snakke hva universell utforming er, hvorfor det er viktig og hvordan vi kan jobbe med å gjøre det enkelt for oss selv å jobbe med det.
 
 Tidlig identifiserte jeg 3 ting jeg mener må være på plass for å jobbe med universell utforming på en bærekraftig måte. Med bærekraftig, mener jeg her en måte som vi klarer å oppretholde over tid og som ikke bare blir det siste en sjekker før en releaser noe for så å gleme å forholde seg til det neste året. De 3 tingene jeg mener må på plass for å jobbe bærekreaftig med universell utforming er: opplæring, prosess og verktøy. Altså gode enkle resurser som gjør at det er lett å lære og gjenlære hva som er viktig med universell utforming og hvordan lage universel utformede løsninger. Prosesser som legger til rette for at vi jobber gjevnt med det og ikke i skippertak. Og verktøy som støtter oss i det arbeidet vi gjør.
+
+#### Fra sjekkliste til prosess
+
+<figure>
+<object data="./reverse_swiss_chees_model.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 ### Opplæring
 
@@ -167,7 +198,7 @@ todo bilde
 #### System design
 
 <figure>
-<object data="./trmporary.svg" type="image/svg+xml" ></object>
+<object data="./dd.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
@@ -212,6 +243,11 @@ todo more slides?
 - manuelle tester
 
 ### Verktøy
+
+<figure>
+<object data="./tools.svg" type="image/svg+xml" ></object>
+<figcaption>Todo add caption</figcaption>
+</figure>
 
 #### Skjermleser
 
