@@ -89,13 +89,14 @@ newContent += "\n</div>\n";
 
 content.innerHTML = newContent;
 
-document.addEventListener("keydown", keyDownTextField, false);
+document.addEventListener("onkeypress", keyDownTextField, false);
 
 var presentation = false;
 var presenterMode = false;
 
 function keyDownTextField(e) {
   var keyCode = e.keyCode;
+  console.log("e.key", e.key, e.shiftKey);
   if (keyCode == 33 || keyCode == 37) {
     e.preventDefault();
     prev();
