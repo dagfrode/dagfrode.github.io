@@ -1,4 +1,4 @@
-For at noe skal skje her i verden må noen være motiverte for å gjøre jobben, eller det må være minste motstands vei. I alle fall om det skal skje konsistent over tid. Motivasjon falmer som regel over tid.
+<!-- For at noe skal skje her i verden må noen være motiverte for å gjøre jobben, eller det må være minste motstands vei. I alle fall om det skal skje konsistent over tid. Motivasjon falmer som regel over tid.
 
 I denne talken ser vi på hvordan teamet jeg jobber i har jobbet med å bygge inn universiell utforming i alle ledd i utviklingsprosessen, fra design, til koding, byggepipelines og testing av systemene vi lager.
 
@@ -20,6 +20,8 @@ Vi kommer til å snakke kort om hva kravene for universiell utforming er, hvorda
   - utfordringer
   - fordeler
 - Konklusjon
+
+-->
 
 # Bærekraftig universiell utforming - fra sjekkliste til prosess
 
