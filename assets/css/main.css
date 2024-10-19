@@ -291,7 +291,7 @@ body.presentation .wip, body.presentation  #stats {
   display: none;
 }
 
-body.presentation .presentation-only, body.presentation .page-number { 
+body.presentation .presentation-only, body.presentation .page-number {
   display: block;
 }
 
@@ -341,7 +341,7 @@ body.presentation footer {
 
 body.presentation h1,
 body.presentation h2 {
-  margin: 15rem 5rem;
+  margin: auto;
   font-size: 7rem;
   text-align: center;
 }

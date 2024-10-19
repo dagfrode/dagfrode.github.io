@@ -25,10 +25,10 @@ for (var i = 0; i < content.children.length; i++) {
 
   if (["H1", "H2", "H3", "H4"].includes(content.children[i].nodeName)) {
     var preTitle = "";
-    if (content.children[i].nodeName === "H3") {
-      prevh3 = content.children[i];
+    if (child.nodeName === "H3") {
+      prevh3 = child;
     }
-    if (content.children[i].nodeName === "H4") {
+    if (child.nodeName === "H4") {
       preTitle = `<h3 class="top-header">${prevh3.innerHTML.replace(
         "[presentation-only]",
         ""
@@ -36,10 +36,7 @@ for (var i = 0; i < content.children.length; i++) {
     }
     if (child.innerHTML.indexOf("[presentation-only]") > -1) {
       child.classList.add("presentation-only");
-      child.innerHTML = `${preTitle} ${child.innerHTML.replace(
-        "[presentation-only]",
-        ""
-      )}`;
+      child.innerHTML = child.innerHTML.replace("[presentation-only]", "");
     }
     if (currentSection) {
       newContent +=
@@ -58,7 +55,7 @@ for (var i = 0; i < content.children.length; i++) {
       slideCount++;
       currentPage++;
     }
-    currentSection = asHTML(child) + '\n<div class="slide-body">\n';
+    currentSection = preTitle + asHTML(child) + '\n<div class="slide-body">\n';
   } else {
     currentSection += asHTML(child);
   }
