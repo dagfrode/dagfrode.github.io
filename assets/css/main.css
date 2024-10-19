@@ -287,7 +287,7 @@ body.presentation .chapter-list{
   opacity: .3;
 }
 
-body.presentation .wip {
+body.presentation .wip, body.presentation  #stats {
   display: none;
 }
 

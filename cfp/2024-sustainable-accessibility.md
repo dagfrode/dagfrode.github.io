@@ -3,7 +3,8 @@
 - Presentation format: 30-45 -
 - Keywords:
 - Relevant conferances: conferences - JavaZone - NDC- JsConf - Reactconf?
-- Submitted to:
+- Submitted to: JavaZone, NDC, TDC
+- Accepted by: TDC
 
 ## Summary
 

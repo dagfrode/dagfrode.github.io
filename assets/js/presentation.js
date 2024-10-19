@@ -19,13 +19,24 @@ var currentPage = 0;
 var content = document.getElementById("main_content");
 var newContent = "";
 var currentSection = "";
+var prevh3;
 for (var i = 0; i < content.children.length; i++) {
   const child = content.children[i];
 
   if (["H1", "H2", "H3", "H4"].includes(content.children[i].nodeName)) {
+    var preTitle = "";
+    if (content.children[i].nodeName === "H3") {
+      preTitle = prevh3 = content.children[i];
+    }
+    if (content.children[i].nodeName === "HH") {
+      prevh3.innerHTML.replace("[presentation-only]", "");
+    }
     if (child.innerHTML.indexOf("[presentation-only]") > -1) {
       child.classList.add("presentation-only");
-      child.innerHTML = child.innerHTML.replace("[presentation-only]", "");
+      child.innerHTML = `${preTitle} ${child.innerHTML.replace(
+        "[presentation-only]",
+        ""
+      )}`;
     }
     if (currentSection) {
       newContent +=
