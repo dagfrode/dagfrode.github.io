@@ -26,10 +26,13 @@ for (var i = 0; i < content.children.length; i++) {
   if (["H1", "H2", "H3", "H4"].includes(content.children[i].nodeName)) {
     var preTitle = "";
     if (content.children[i].nodeName === "H3") {
-      preTitle = prevh3 = content.children[i];
+      prevh3 = content.children[i];
     }
-    if (content.children[i].nodeName === "HH") {
-      prevh3.innerHTML.replace("[presentation-only]", "");
+    if (content.children[i].nodeName === "H4") {
+      preTitle = `<h3 class="top-header">${prevh3.innerHTML.replace(
+        "[presentation-only]",
+        ""
+      )}</h3>`;
     }
     if (child.innerHTML.indexOf("[presentation-only]") > -1) {
       child.classList.add("presentation-only");

@@ -291,7 +291,7 @@ body.presentation .wip, body.presentation  #stats {
   display: none;
 }
 
-body.presentation .presentation-only, body.presentation .page-number {
+body.presentation .presentation-only, body.presentation .page-number { 
   display: block;
 }
 
@@ -356,6 +356,11 @@ body.presentation h3 {
   margin-top: 0;
   padding: 2rem 5rem;
   border-bottom: .2rem solid var(--theme-header-underline);
+}
+
+body.presentation .top-header{
+  font-size: 2rem;
+  border-bottom: none;
 }
 body.presentation h4 {
   font-size: 3rem;
