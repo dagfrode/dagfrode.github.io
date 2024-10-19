@@ -37,13 +37,6 @@ Jeg hadde tenkt å bruke mye tid på å lese litteratur og lage egne løsninger,
 
 Det arbeider vi har endt opp med å gjøre har endt opp med å være mer strategisk enn jeg hadde planlagt. Vi har jobbet med å finne ut av hvor vi er, hvor vi vil og hva som skal til for å komme dit. Oppsummert kan jeg si at vi er godt på vei, har mye vi kan lære av hverandre og en del vi kan gjøre for å forbedre opplæring og trygghet på universell utforming. Hvordan vi jobber med å komme dit er det jeg skal bruke resten av foredraget til å snakke om.
 
-<!-- ### Overveldene
-
-<figure>
-<object data="./overveldet.svg" type="image/svg+xml" ></object>
-<figcaption>Todo add caption</figcaption>
-</figure> -->
-
 sb1u gjør mye for å
 
 har lyst til å løse uu
@@ -129,7 +122,7 @@ jeg tror jeg må droppe disse to slidene. jeg klarer ikke definere det godt nok.
 ### Brukertesting
 
 <figure>
-<object data="./intervju.svg" type="image/svg+xml" ></object>
+<object data="./brukertesting_1.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
@@ -231,7 +224,7 @@ Det er vel en selvfølge. Føler det meste av det jeg sier i dag er det. Det e r
 #### Prosedyre for manuell testing
 
 <figure>
-<object data="./extensions.svg" type="image/svg+xml" ></object>
+<object data="./prosedyre.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
@@ -307,7 +300,7 @@ todo automated tests
 - automatiserte tester
 
 <figure>
-<object data="./testing.svg" type="image/svg+xml" ></object>
+<object data="./testing_automatisk.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
@@ -325,7 +318,7 @@ todo automated tests
 - brukertesting
 
 <figure>
-<object data="./testing.svg" type="image/svg+xml" ></object>
+<object data="./brukertesting_2.svg" type="image/svg+xml" ></object>
 <figcaption>Todo add caption</figcaption>
 </figure>
 
