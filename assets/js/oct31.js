@@ -1,4 +1,5 @@
 function isOctober31st() {
+  return true;
   var date = new Date();
   return date.getMonth() === 9 && date.getDate() === 31;
 }

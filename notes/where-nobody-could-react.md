@@ -99,8 +99,36 @@ Her er manifestet for extenson jeg jobber med:
 
 Det er en extension med en funksjon, åpne et sidepanel. `side_panel.default_path` er peker til den kompilerte react appen som igjen henter inn resten av css og js. Under commands reggisterer vi en hurtigtast for å åpne panelet. `service_worker` lytter på denne hurtigtasten og på extension ikonet og åpner panelet. `content_scripts` er scripts som injectes i siden extension brukes på. Der lytter den til meldinger som blir sendt fra sidepanelet. Slik får vi koblet knapper i sidepanelet med ting som skjer i nettsiden en er på.
 
+## I en Iframe
+
+Vurderte å gjøre dette, men kom på at jeg hadde hørt om noe som heter shadow DOM men ikke prøvd det så hoppet glatt over denne. Ville det funka? jeg tror det, men lot være å utforske.
+
+## I en Shadow DOM
+
+```tsx
+const rootElement = document.createElement("div");
+rootElement.classList.add("sa11y");
+document.body.insertBefore(rootElement, document.body.firstChild);
+
+// attach shadow DOM to container
+const shadowRoot = rootElement.attachShadow({ mode: "open" });
+
+// const sheet = new CSSStyleSheet();
+// shadowRoot.adoptedStyleSheets = [sheet];
+
+// shadow DOM as react root
+const root = createRoot(shadowRoot);
+
+//@ts-ignore
+root.render(<App />);
+```
+
+Fordelen her er at dette fungerer i alle nettlesere, det støyer ikke til DOM så er det UU feil i Sa11y ødelegger ikke det når en kjører nettsiden. Utvikling med riktig styling er litt knotete så blir nok et eget løp for bygg som bruker shadow DOM mens utvikling skjer uten. Eventuelt tar jeg gjerne imot hjelp for å sette opp utviklingsløpet.
+
 ## Bare fordi en kan bo et sted, burde en?
 
-Så, vi har nå sett at en kan dytte React inn i et eget vindue og inn i Chrome extensions. Men bør man gjøre det? Jeg tenker det ikke er noe galt å dytte React inn i extensions, jeg er mer usikker på det å dytte React inn i egne vindue. Men det handler mer om at jeg opplever det som dårlig UX for brukere, så jeg vil nok ikke gjøre det profesjonelt utenom spesielle ekspertsystemer. Koblingen mellom vinduene kan og være kjør. Men for egne prosjekter? Absolutt.
+~~ Så, vi har nå sett at en kan dytte React inn i et eget vindue og inn i Chrome extensions. Men bør man gjøre det? Jeg tenker det ikke er noe galt å dytte React inn i extensions, jeg er mer usikker på det å dytte React inn i egne vindue. Men det handler mer om at jeg opplever det som dårlig UX for brukere, så jeg vil nok ikke gjøre det profesjonelt utenom spesielle ekspertsystemer. Koblingen mellom vinduene kan og være kjør. Men for egne prosjekter? Absolutt.̃ ~~
+
+Vi landa på å droppe plugin og putte det i shadow DOM!
 
 Hvis du ble lurende på hva konklusjonen på hvor Reacten Da11y dyttes, så er svaret i en Chrome extension. Med mindre det skulle skje noe videre. Chrome har alt et par verktøy som er nyttige og det er den mest brukte nettleseren. Det gjør meg vondt å ikke tilrettelegge for støtte av alle nettlesere, men teknisk er det denne løsningen som gir mest mening per nå.

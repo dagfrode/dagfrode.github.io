@@ -17,6 +17,7 @@ body {
     --theme-header-underline: var(--main-pink);
     --theme-black-quote-bar: var(--main-pink);
     font-size: 20px;
+    transition: background-color 200ms linear,  color 200ms linear;
 }
 /*
 @media (prefers-color-scheme: light) {
