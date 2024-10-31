@@ -18,10 +18,7 @@ function evilMinion() {
 function toggleMinion(){
   setTimeout(minion, 2000);
   setTimeout(evilMinion, 5000);
-  setTimeout(minion, 6000);
-  setTimeout(evilMinion, 8000);
-  setTimeout(minion, 10000);
-  setTimeout(evilMinion, 12000);
+
 }
 
 
