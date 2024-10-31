@@ -15,11 +15,23 @@ function evilMinion() {
   document.body.style.setProperty("--main-white", "#bb9fe2");
 }
 
-if (isOctober31st()) {
-  setTimeout(minion, 20000);
-  setTimeout(evilMinion, 25000);
-  setTimeout(minion, 26000);
-  setTimeout(evilMinion, 30000);
-  setTimeout(minion, 32000);
-  setTimeout(evilMinion, 33000);
+function toggleMinion(){
+  setTimeout(minion, 2000);
+  setTimeout(evilMinion, 5000);
+  setTimeout(minion, 6000);
+  setTimeout(evilMinion, 8000);
+  setTimeout(minion, 10000);
+  setTimeout(evilMinion, 12000);
 }
+
+
+
+document.addEventListener('keydown', function(event) {
+  if (event.ctrlKey && event.altKey && event.key === 'M') {
+      // Prevent default behavior (optional)
+      event.preventDefault();
+      
+      // Call your function here
+      toggleMinion();
+  }
+});
