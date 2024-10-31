@@ -27,9 +27,7 @@ function toggleMinion(){
 
 
 document.addEventListener('keydown', function(event) {
-  if (event.ctrlKey && event.altKey && event.key === 'M') {
-      // Prevent default behavior (optional)
-      event.preventDefault();
+  if (event.ctrlKey && event.altKey && event.key === 'm') {
       
       // Call your function here
       toggleMinion();
