@@ -1,0 +1,22 @@
+## Mal på prosjektforslag
+
+- Navn på bedrifiten
+- Kort beskrivelse av prosjektet. Denne brukes av studentene for å velge prosjekt.
+- Ekstra dokumentasjon eller materiale. Hvis det er noe som med fordel kan deles åpent før prosjektet er startet. Feks mer utdypende beskrivelse av prosjektet. (Ikke nødvendig)
+- Prosjektets lisens. Det er en fordel om arbeidet sutdentene gjør kan publiseres på github under en lisens som tilater gjenbruk, eller i det minste kan publiseres åpent da studentene kan bruke dette som grunnlag for å få seg sommerjobb. Valgt lisens kan ikke endres.
+- Ekstra informasjon.
+  - Er det materiale eller informasjon i prosjektet som ikke skal deles?
+  - Hvordan skal prosjektet brukes?
+  - Trenger kunde ekslusive rettigheter til prosjektet?
+- Kan studentene jobbe i deres kontorer i Trondheim noen timer hver uke?
+- Hvilken kompetanse krever prosjektet?
+- Er prosjektet under NDA?
+- Er det spesielle behov knyttet til prosjektet?
+  - tilganger til fysiske eller digitale resurser
+- Hvis du sender inn flere prosjekter; Hvor mange prosjekter kan du følge opp?
+- Kontaktinformasjon
+  - Navn
+  - Epost
+  - Telefonnr
+- Lenke til videopitch. Kort videopitch som beskriver prosjektet for å engasjere studentene.
+  - eksempel: https://www.youtube.com/watch?v=s7B8tgYULlM
