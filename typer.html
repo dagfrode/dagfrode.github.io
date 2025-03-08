@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            background-color: #004481;
+            color: white;
+        }
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: url('https://www.sparebank1.no/content/dam/sparebank1/global/logos/wave.svg') repeat-x;
+            background-size: cover;
+        }
+        #main-screen, #game-screen {
+            display: none;
+            background: white;
+            color: #004481;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .correct {
+            color: #28a745;
+        }
+        .incorrect {
+            color: #dc3545;
+            text-decoration: underline;
+        }
+        textarea {
+            width: 90%;
+            height: 120px;
+            font-size: 16px;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #004481;
+            border-radius: 4px;
+            outline: none;
+        }
+        textarea:focus {
+            border-color: #ff671f;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #ff671f;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #cc5400;
+        }
+        .extra-small-button {
+            font-size: 10px;
+            padding: 5px 10px;
+        }
+        pre {
+            text-align: left;
+            display: inline-block;
+            white-space: pre-wrap;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-screen">
+        <h1>Velkommen til Skrivehastighetstesten</h1>
+        <p>Test din skrivehastighet ved å skrive den gitte teksten så raskt og nøyaktig som mulig. Timeren starter når du begynner å skrive og stopper når du er ferdig.</p>
+        <button class="extra-small-button" onclick="startGame()">Start test</button>
+    </div>
+    
+    <div id="game-screen">
+        <h1>Skrivehastighetstest</h1>
+        <pre id="text-container"></pre>
+        <textarea id="typing-area" placeholder="Start å skrive her..." onpaste="return false;"></textarea>
+        <p id="timer">Tid: 0.00s</p>
+        <button onclick="resetTest()">Tilbake</button>
+    </div>
+    <div class="wave"></div>
+    
+    <script>
+        const textToType = `Sikre at interaktive elementer er store nok til å klikkes eller har nok avstand. Dette hjelper brukere med motoriske utfordringer å navigere enklere.`.split('\n');
+        const textContainer = document.getElementById("text-container");
+        const typingArea = document.getElementById("typing-area");
+        const timerDisplay = document.getElementById("timer");
+        const mainScreen = document.getElementById("main-screen");
+        const gameScreen = document.getElementById("game-screen");
+        let startTime = null;
+        let interval = null;
+        
+        function startGame() {
+            mainScreen.style.display = "none";
+            gameScreen.style.display = "block";
+            displayText();
+        }
+        
+        function displayText() {
+            textContainer.innerHTML = "";
+            textToType.forEach(line => {
+                let lineContainer = document.createElement("div");
+                lineContainer.style.textAlign = "left";
+                line.split("").forEach(char => {
+                    let span = document.createElement("span");
+                    span.textContent = char;
+                    lineContainer.appendChild(span);
+                });
+                textContainer.appendChild(lineContainer);
+            });
+        }
+        
+        typingArea.addEventListener("input", () => {
+            if (startTime === null) {
+                startTime = Date.now();
+                interval = setInterval(updateTimer, 10);
+            }
+            
+            let typedLines = typingArea.value.split("\n");
+            let lineContainers = textContainer.children;
+            
+            for (let lineIndex = 0; lineIndex < textToType.length; lineIndex++) {
+                let spans = lineContainers[lineIndex]?.children;
+                let typedLine = typedLines[lineIndex] || "";
+                
+                for (let charIndex = 0; charIndex < (spans?.length || 0); charIndex++) {
+                    if (charIndex < typedLine.length) {
+                        spans[charIndex].className = typedLine[charIndex] === textToType[lineIndex][charIndex] ? "correct" : "incorrect";
+                    } else {
+                        spans[charIndex].className = "";
+                    }
+                }
+            }
+            
+            if (typedLines.join("\n").length >= textToType.join("\n").length) {
+                clearInterval(interval);
+            }
+        });
+        
+        function updateTimer() {
+            let elapsedTime = (Date.now() - startTime) / 1000;
+            timerDisplay.innerText = `Tid: ${elapsedTime.toFixed(2)}s`;
+        }
+        
+        function resetTest() {
+            clearInterval(interval);
+            startTime = null;
+            timerDisplay.innerText = "Tid: 0.00s";
+            typingArea.value = "";
+            gameScreen.style.display = "none";
+            mainScreen.style.display = "block";
+        }
+        
+        mainScreen.style.display = "block";
+    </script>
+</body>
+</html>
