@@ -13,12 +13,10 @@ function pathToSlug(path: string) {
     .replace(/index\.md$/, "")
     .replace(/\.md$/, "")
     .split("/");
-  console.log(p);
   return p;
 }
 
 export async function getStaticPaths() {
-  console.log("get static paths");
   return {
     paths: contentPaths.map((path) => {
       return {
@@ -32,9 +30,6 @@ export async function getStaticPaths() {
 }
 
 export const getStaticProps = (async ({ params }: GetStaticPropsContext) => {
-  console.log("getStaticProps");
-  console.log(params);
-
   try {
     // Build the file path to read from public/content directory
     const filePath = path.join(
@@ -44,13 +39,12 @@ export const getStaticProps = (async ({ params }: GetStaticPropsContext) => {
       Array.isArray(params?.slug) ? params.slug.join("/") + ".md" : "index.md"
     );
 
-    console.log(filePath);
-
     // Read the file contents
     const content = await fs.readFile(filePath, "utf8");
 
     return { props: { content } };
   } catch (error) {
+    console.log(error);
     try {
       const filePath = path.join(
         process.cwd(),
@@ -61,14 +55,12 @@ export const getStaticProps = (async ({ params }: GetStaticPropsContext) => {
           : params?.slug + "/index.md"
       );
 
-      console.log(filePath);
-
       // Read the file contents
       const content = await fs.readFile(filePath, "utf8");
 
       return { props: { content } };
     } catch (error) {
-      console.error("Error reading markdown file:", error);
+      console.log(error);
       return {
         notFound: true,
       };
