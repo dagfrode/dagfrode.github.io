@@ -10,7 +10,7 @@ import path from "path";
 
 function pathToSlug(path: string) {
   const p = path
-    .replace(/\/index\.md$/, "")
+    .replace(/index\.md$/, "")
     .replace(/\.md$/, "")
     .split("/");
   return p;
