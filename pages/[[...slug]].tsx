@@ -23,7 +23,7 @@ function pathToSlug(path: string) {
 
 export async function getStaticPaths() {
   return {
-    paths: contentPaths.map((path) => {
+    paths: contentPaths.map((path:string) => {
       return {
         params: {
           slug: pathToSlug(path),
@@ -46,8 +46,9 @@ export const getStaticProps = (async ({ params }: GetStaticPropsContext) => {
 
     // Read the file contents
     const content = await fs.readFile(filePath, "utf8");
+    const htmlContent = await marked(content)
 
-    return { props: { content } };
+    return { props: { content: htmlContent.replaceAll("<a", '<a onclick="nextPush(this,event);" ') } };
   } catch (error) {
     console.log(error);
     try {
@@ -60,10 +61,10 @@ export const getStaticProps = (async ({ params }: GetStaticPropsContext) => {
           : params?.slug + "/index.md"
       );
 
-      // Read the file contents
       const content = await fs.readFile(filePath, "utf8");
+      const htmlContent = await marked(content)
 
-      return { props: { content, slug: params?.slug } };
+      return { props: { content: htmlContent.replaceAll("<a", '<a onclick="nextPush(this,event);" '), slug: params?.slug } };
     } catch (error) {
       console.log(error);
       return {
@@ -85,13 +86,21 @@ export default function Page({
   useEffect(() => {
     storedMode = window?.localStorage?.getItem("mode") as Mode | null;
     setMode(storedMode ?? "auto");
+    //@ts-ignore not now
+    window.nextPush = (element: HTMLAnchorElement, event:MouseEvent) => {
+      event.preventDefault()
+      router.push(element.href)
+    }
   }, []);
   const [mode, setMode] = useState<Mode>("auto");
+
+
 
   useEffect(() => {
     localStorage.setItem("mode", mode);
     document.body.classList.remove("auto", "light-mode", "dark-mode");
     document.body.classList.add(mode);
+    
   }, [mode]);
 
   const router = useRouter();
@@ -129,6 +138,8 @@ export default function Page({
 
   breadcrombs.unshift({ name: "Home", path: "/", last: false });
 
+  
+
   return (
     <>
       <header>
@@ -147,7 +158,7 @@ export default function Page({
         </nav>
       </header>
       <main>
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
+        <div dangerouslySetInnerHTML={{ __html: content }} />
       </main>
       <footer></footer>
     </>
