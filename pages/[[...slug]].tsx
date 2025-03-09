@@ -11,7 +11,7 @@ import path from "path";
 import "./main.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function pathToSlug(path: string) {
   const p = path
@@ -81,12 +81,12 @@ type Mode = "auto" | "light-mode" | "dark-mode";
 export default function Page({
   content,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  let storedMode: Mode | null = null;
+  const storedMode = useRef<Mode | null>(null);
 
   useEffect(() => {
-    storedMode = window?.localStorage?.getItem("mode") as Mode | null;
-    setMode(storedMode ?? "auto");
-    //@ts-ignore not now
+    storedMode.current = window?.localStorage?.getItem("mode") as Mode | null;
+    setMode(storedMode.current ?? "auto");
+    //@ts-expect-error not now
     window.nextPush = (element: HTMLAnchorElement, event:MouseEvent) => {
       event.preventDefault()
       router.push(element.href)
