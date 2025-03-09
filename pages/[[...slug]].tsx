@@ -82,10 +82,7 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   let storedMode: Mode | null = null;
 
-  const [isClient, setIsClient] = useState(false);
-
   useEffect(() => {
-    setIsClient(true);
     storedMode = window?.localStorage?.getItem("mode") as Mode | null;
     setMode(storedMode ?? "auto");
   }, []);
