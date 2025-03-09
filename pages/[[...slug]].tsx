@@ -11,6 +11,7 @@ import path from "path";
 import "./main.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 function pathToSlug(path: string) {
   const p = path
@@ -74,13 +75,46 @@ export const getStaticProps = (async ({ params }: GetStaticPropsContext) => {
   content: string;
 }>;
 
+type Mode = "auto" | "light-mode" | "dark-mode";
+
 export default function Page({
   content,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  let storedMode: Mode | null = null;
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+    storedMode = window?.localStorage?.getItem("mode") as Mode | null;
+    setMode(storedMode ?? "auto");
+  }, []);
+  const [mode, setMode] = useState<Mode>("auto");
+
+  useEffect(() => {
+    localStorage.setItem("mode", mode);
+    document.body.classList.remove("auto", "light-mode", "dark-mode");
+    document.body.classList.add(mode);
+  }, [mode]);
+
   const router = useRouter();
   const slug = router.query.slug;
   if (!content) {
     return <div>Loading...</div>;
+  }
+
+  function toggleMode() {
+    switch (mode) {
+      case "auto":
+        setMode("light-mode");
+        break;
+      case "light-mode":
+        setMode("dark-mode");
+        break;
+      case "dark-mode":
+        setMode("auto");
+        break;
+    }
   }
 
   console.log("slug", slug);
@@ -102,6 +136,7 @@ export default function Page({
     <>
       <header>
         <h1>My Blog</h1>
+        <button onClick={toggleMode}>{mode}</button>
         <nav className="breadcrumbs">
           {breadcrombs.length > 1 && (
             <ul>
