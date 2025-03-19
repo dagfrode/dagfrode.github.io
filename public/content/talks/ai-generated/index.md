@@ -128,6 +128,7 @@
         }
       }
     </style>
+
   </head>
   <body>
     <div id="1" class="chat-wrapper">
@@ -419,7 +420,7 @@
       <h2>Oppsummering</h2>
     </div>
 
-    <div id="12" class="chat-wrapper">
+    <div id="14" class="chat-wrapper">
       <div class="chat-container">
         <div class="chat-header">Fin</div>
         <div class="chat-messages"></div>
@@ -525,5 +526,6 @@
         }
       });
     </script>
+
   </body>
 </html>
