@@ -1,6 +1,6 @@
 # Talks
 
-## [Me, Myself, ChatGPT, and I](./ai-generated/)
+## [Me, Myself, ChatGPT, and I](/content/talks/ai-generated/)
 
 ## [Bærekraftig universiell utforming - fra sjekkliste til prosess](./sustainable-accessibility/)
 
