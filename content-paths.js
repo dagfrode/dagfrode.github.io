@@ -27,6 +27,7 @@ function getAllFilePaths(dir, fileList = []) {
   return fileList;
 }
 
+
 // Define the content directory and the output file path
 const contentDir = path.join(__dirname, "public", "content");
 const outputFilePath = path.join(__dirname, "app", "content-paths.ts");
