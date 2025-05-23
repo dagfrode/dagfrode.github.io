@@ -2,9 +2,29 @@
 
 a list of learning activities ive been up too.
 
+## May 2025
+
+### Week 21
+
+- tested out decap git cms by Netlify. It looks nice but the documentation is hard to follow and i had to read trought lots of different pages to get a working basic example. Also some features are beta and is shown in the example app but did not work when I used their latest version from CDN. Looks promesing appart from that and could se myself using it if the nested pages feature that is in beta actually worked.
+- Tested out Payload CMS a tiny bit. Just got it up and running. Seem nice so far. Just kinda gives you a whole website to start out with and modify. Reminds me a bit of something between wordpress and Django. Look forward to exploring it a bit more.
+- started slightly reading up on CDNs. Will have to read up a whole lot more.
+- Been trying to fix the 3D print this week. No amount of print head cleaning did the trick so tried replacing the print head, but the electronics where stuck so ended up having to order a whole new print head asembly. Got up and working nicely after. Print stuff for aliminium profiles to be used in rigging in tv production.
+
+## April 2025
+
+### Week 14
+
+- Read up on a talked with people to understand vite build target, transpilation, browserslist and can I use to a degree where I know how to use the tools and share it with others to ensure we are able to make sure we support the browsers we say we should.
+- 3D modeled and printed a adapter for 2 part epoxy syringe to fit in a caulking gun
+
+## Mars 2025
+
+### Week 10
+
+- Rebuild this website with next instead of github pages
+
 ## May 2024
-
-
 
 ### Week 21
 
@@ -12,19 +32,23 @@ a list of learning activities ive been up too.
   - Taks about [Teleology](https://en.wikipedia.org/wiki/Teleology) so far. Every process has a goal. Even if the consequences of the process is unwanted you still have to understand what goals the process server to change it (or at least that is my interpretation based on the book)
 
 ### Week 20
+
 - Started reading Body keeps the score again
 - Lots of Dr. K and healthy gamer
 - Long walk with lots of ideas and a new format for exercise / notataking
 
 ### Week 19
-- 
+
+-
 
 ### Week 18
+
 - Designed workshop for accessebility
 
 ## April 2024
 
 ### Week 17
+
 - Learned more about WCAG
 - Got to try my hands ont intervjuing again
 - Learned a lot about teeth, mineralisation, retainer floss etc

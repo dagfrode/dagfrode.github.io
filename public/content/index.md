@@ -4,6 +4,10 @@
 
 See my [now](/now/) page.
 
+## Things I'm reading up on
+
+See my [study](/study/) list.
+
 ## Some of the things i talk about
 
 See my [talks](/talks/) page.
