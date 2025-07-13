@@ -560,13 +560,13 @@ Features:
             
             determineStatus(entry) {
                 const statusText = (entry['Status'] || entry['Tilstand'] || '').toLowerCase();
-                const fault = entry['Feil'] || entry['Fault'] || entry['Problem'] || '';
+                const fault = entry['Har mangler'] || entry['Fault'] || entry['Problem'] || '';
                 
                 if (fault && fault.toLowerCase() !== 'nei' && fault.toLowerCase() !== 'no' && fault.trim() !== '') {
                     return { class: 'fault', text: 'Feil registrert' };
                 }
                 
-                if (statusText.includes('ok') || statusText.includes('bra') || statusText.includes('fungerer')) {
+                if (statusText.includes('I orden') || statusText.includes('bra') || statusText.includes('fungerer')) {
                     return { class: 'ok', text: 'Fungerer' };
                 }
                 
