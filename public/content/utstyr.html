@@ -537,7 +537,11 @@ Features:
                         
                         <div class="info-row">
                             <span class="info-label">Kontrollert av</span>
-                            <span class="info-value">${entry['Kontrollert av'] || entry['Checked by'] || entry['Navn'] || 'Ukjent'}</span>
+                            <span class="info-value">${entry['Sjekket av'] || entry['Checked by'] || entry['Navn'] || 'Ukjent'}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Mangler</span>
+                            <pre class="info-value">${entry['Mangler'] || entry['Checked by'] || entry['Navn'] || 'Ukjent'}</pre>
                         </div>
                         
                         <div class="info-row">
