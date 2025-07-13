@@ -565,11 +565,9 @@ Features:
                     return { class: 'fault', text: 'Feil registrert' };
                 }
                 
-                if (statusText.includes('I orden')) {
+                if (statusText === 'I orden') {
                     return { class: 'ok', text: 'Fungerer' };
                 }
-                
-            
                 
                 return { class: 'unknown', text: 'Status ukjent' };
             }
