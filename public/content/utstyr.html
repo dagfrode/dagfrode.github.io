@@ -362,11 +362,7 @@ Features:
                     const equipmentEntries = data.filter(row => {
                         // Check various possible column names for equipment name
                         const possibleNames = [
-                            row['Utstyrsnavn'] || '',
-                            row['Navn'] || '',
-                            row['Equipment'] || '',
-                            row['Item'] || '',
-                            Object.values(row)[0] || '' // First column
+                            row['Utstyr'] || '',
                         ];
                         
                         return possibleNames.some(name => 
