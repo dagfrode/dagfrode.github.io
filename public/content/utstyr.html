@@ -559,20 +559,17 @@ Features:
             }
             
             determineStatus(entry) {
-                const statusText = (entry['Status'] || entry['Tilstand'] || '').toLowerCase();
-                const fault = entry['Har mangler'] || entry['Fault'] || entry['Problem'] || '';
+                const statusText = entry['Tilstand'];
                 
-                if (fault && fault.toLowerCase() !== 'nei' && fault.toLowerCase() !== 'no' && fault.trim() !== '') {
+                if (statusText === "Har mangler") {
                     return { class: 'fault', text: 'Feil registrert' };
                 }
                 
-                if (statusText.includes('I orden') || statusText.includes('bra') || statusText.includes('fungerer')) {
+                if (statusText.includes('I  Orden')) {
                     return { class: 'ok', text: 'Fungerer' };
                 }
                 
-                if (statusText.includes('feil') || statusText.includes('defekt') || statusText.includes('ødelagt')) {
-                    return { class: 'fault', text: 'Feil registrert' };
-                }
+            
                 
                 return { class: 'unknown', text: 'Status ukjent' };
             }
