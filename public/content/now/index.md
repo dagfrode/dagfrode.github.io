@@ -4,37 +4,26 @@
 
 <!--Keep-->
 
-Updated March 13th, 2024, home in Oslo.
+Updated October 16th, 2025, home in Oslo.
 
-[Permalink to this update](/now/2024.03.13)
+[Permalink to this update](/now/2025.10.16)
 
-## Getting into a new job
+Right now I'm trying to take things a bit slow. I've just been at ViteConf in Amsterdam after bringing 20 scouts with me to another country for 5 days. It was a good trip, but a 5 day mindfullness challenge.
 
-I stated a new job this week. As an inhouse developer in a pretty big firm. There is lots to get used to and learn about the existing code, and the philosophies the organization folows.
+I've picked up yoga again and hope to continue doing it for the next few months.
 
+At work I'm rebuilding a design system to modernize it and to make it more user friendly. My workplace is reorganizing, so things are quite chaotic. I'm trying to use AI to generate scripts for me to analyze how our designsystem is used. Something that worked really well for a while but it seem to get worse the longer i try. I might be giving it to challenging data to collect, I'm not sure.
 
+Then there is wedding planning, 3d modeling and printing, mouse fortification of the house and probably a few other project going on at a leasurly pace.
 
+Oh, and I'll pick up Ethan Kross book Shift: Managing Your Emotions--So They Don't Manage You, again
 
-## Setting up this website
-
-I have gooten a good base for this website up and running. Want to introduce some more of the old tools I used ot have like:
-
-- light/dark mode
-- Presentation mode
-- reading time in top of articles
-
-## Writing CFP
-
-Writing up CFPs for developer confererances. 
-
-see [cfp](/cfp/) for more
-
-Current talk ideas:
-- "That not my name; the art of naming things" - why naming things in software is so hard (it's a game of thelephone from experts trough developers to user interfaces), and how to get better at naming things (some simple rules, and some frameworks for documenting and clearifying your domain)
-- "Mental health; a systems approach" - looking at mental health by looking at the ourselves as a set of systems and looking at how to take care of yourselves. Sort of a ownsers manual.
-- Sustainable accessibility / Accessible CI/CD - For accessibility to be sustainable there must be easy ways to maintain it and clear processes for both automatic and manual testing.
+I've not really jornaled nor taken the time to write much in the past year. I'd like to see this update be the reboot of thouse habits.
 
 <!-- Keep -->
+
 ## Earlier updates
+
+- [May 22nd 2024](/now/2024.05.22)
 - [March 13th 2024](/now/2024.03.13)
 - [March 6th 2024](/now/2024.03.06)
