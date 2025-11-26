@@ -30,11 +30,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.3.0
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "23"
+          node-version: "24"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       # - name: Setup Pages
       #   uses: actions/configure-pages@v5
@@ -55,7 +55,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
       - name: Build with Next.js
         run: npm run build
       - name: Upload artifact
