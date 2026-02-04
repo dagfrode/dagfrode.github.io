@@ -2,6 +2,31 @@
 
 a list of learning activities ive been up too.
 
+## December
+
+### 50
+
+- Read up on github branch protection rules, and [github actions security](https://www.wiz.io/blog/github-actions-security-guide) [Bypass github branch protection with actions](https://www.youtube.com/watch?v=UbfhVXJn6fk&pp=ygUmYnlwYXNzIGJyYW5jaCBwcm90ZWN0aW9uIGdpdGh1YiBhY3Rpb24%3D)
+- [So Long, and Thanks for All the Phish](https://www.youtube.com/watch?v=tJ4tG7nRUyU). Talk about how one of the worlds larges phishing attacs where organiced and how it worked. [More about it from Norwegian national media](https://www.nrk.no/dokumentar/xl/jakten-pa-darcula-1.17337596)
+- Been reading up on browser versions. Interesting to know that iOS Safari 15.8 is years newer than iOS Safari 16.0-3 and the featureset is likevise.
+- Been looking into [MCP servers](https://modelcontextprotocol.info/docs/tutorials/building-a-client-node/). And [MCP:UI](https://mcpui.dev/). Servers for providing AI developer tools with tools for interacting with services. MCP:UI beeing UI focused giving LLM's access to insert UI elements into their chat and MCP servers beeing more of a api integration.
+
+### 49
+
+- Been looking into colors and color spaces. [sRGB is only one of multiple HSL and OKLCH beeing alternatives](https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl). OKLCH gives you the benefit of beeing able to make color scales better as it has light and chrome(color intensity) as seperate parameters allowing you to change the brigthness off a color in a way that feels more even to the eye than SRGB.
+- Been looking into and using more advanced features of github actions. Not nessessarrely anything gamechanging, but have worked more with it as to get to a point I feel like I understand the basics well.
+
+## November
+
+### Week 48
+
+- [Sha1-Hulud](https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/) seccond comming of npm worm
+- read up on [npm security](https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet.html). It is pretty streight forward it seemes. Use `npm ci` on build envs. use `--ignore-scripts`. Think about what packages you use directly and indirectly
+
+### Week 47
+
+- learned that svg spirits can not be used with cors. This explaines my last 3 failed attempts.
+
 ## May 2025
 
 ### Week 21
