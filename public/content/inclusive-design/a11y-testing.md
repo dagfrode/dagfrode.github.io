@@ -114,6 +114,7 @@ Catches issues like:
 While DevTools are great, specialized extensions provide additional insights:
 
 **Siteimprove Accessibility Checker:**
+
 - Free Chrome extension
 - Comprehensive page-level scans
 - Clear categorization of issues (errors, warnings, reviews)
@@ -121,16 +122,19 @@ While DevTools are great, specialized extensions provide additional insights:
 - Provides guidance on how to fix
 
 **WAVE (Web Accessibility Evaluation Tool):**
+
 - Visual feedback directly on page
 - Shows errors, alerts, and features
 - Great for understanding page structure
 - Includes contrast checker
 
 **Color Blind Simulator:**
+
 - Simulate different types of color blindness
 - Verify color isn't the only information carrier
 
 **HeadingsMap:**
+
 - Visualize heading structure
 - Ensure logical hierarchy
 
@@ -314,42 +318,42 @@ npm install -D @axe-core/playwright
 ```
 
 ```javascript
-import { test, expect } from '@playwright/test';
-import AxeBuilder from '@axe-core/playwright';
+import { test, expect } from "@playwright/test";
+import AxeBuilder from "@axe-core/playwright";
 
-test('homepage should be accessible', async ({ page }) => {
-  await page.goto('http://localhost:3000');
-  
-  const accessibilityScanResults = await new AxeBuilder({ page })
-    .analyze();
-  
+test("homepage should be accessible", async ({ page }) => {
+  await page.goto("http://localhost:3000");
+
+  const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
+
   expect(accessibilityScanResults.violations).toEqual([]);
 });
 
 // Test specific areas
-test('navigation should be accessible', async ({ page }) => {
-  await page.goto('http://localhost:3000');
-  
+test("navigation should be accessible", async ({ page }) => {
+  await page.goto("http://localhost:3000");
+
   const accessibilityScanResults = await new AxeBuilder({ page })
-    .include('nav') // Only test navigation
+    .include("nav") // Only test navigation
     .analyze();
-  
+
   expect(accessibilityScanResults.violations).toEqual([]);
 });
 
 // Exclude third-party components you can't control
-test('main content accessible', async ({ page }) => {
-  await page.goto('http://localhost:3000');
-  
+test("main content accessible", async ({ page }) => {
+  await page.goto("http://localhost:3000");
+
   const accessibilityScanResults = await new AxeBuilder({ page })
-    .exclude('.third-party-widget')
+    .exclude(".third-party-widget")
     .analyze();
-  
+
   expect(accessibilityScanResults.violations).toEqual([]);
 });
 ```
 
 **Benefits of Playwright + Axe:**
+
 - Tests in real browser environments
 - Can test authenticated pages
 - Can test dynamic states (modals open, forms filled)

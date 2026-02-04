@@ -25,10 +25,13 @@ You need to explicitly guide AI to consider accessibility. Here are strategies:
 ### 1. Include Accessibility in Your Prompts
 
 **Bad prompt:**
+
 > "Create a modal dialog component"
 
 **Good prompt:**
+
 > "Create an accessible modal dialog component with:
+>
 > - Proper ARIA attributes (role, aria-modal, aria-labelledby)
 > - Focus trap inside modal
 > - Focus management (save and restore previous focus)
@@ -38,7 +41,9 @@ You need to explicitly guide AI to consider accessibility. Here are strategies:
 ### 2. Reference WCAG Standards
 
 **Example prompt:**
+
 > "Create a form that meets WCAG 2.2 Level AA requirements:
+>
 > - Every input has an associated label
 > - Required fields are marked programmatically
 > - Error messages use aria-live regions
@@ -47,6 +52,7 @@ You need to explicitly guide AI to consider accessibility. Here are strategies:
 ### 3. Ask for Multiple Approaches
 
 **Example:**
+
 > "Show me three ways to make this image carousel accessible, with pros and cons of each approach"
 
 This helps you understand trade-offs and make informed decisions.
@@ -54,6 +60,7 @@ This helps you understand trade-offs and make informed decisions.
 ### 4. Request Accessibility Testing Code
 
 **Example:**
+
 > "Write Playwright tests using @axe-core/playwright to verify this component is accessible"
 
 This ensures you can validate the AI's suggestions.
@@ -85,6 +92,7 @@ When generating UI components or web interfaces:
 Always explain accessibility decisions made and suggest testing steps.
 
 When reviewing existing code, check for:
+
 - Semantic HTML usage
 - Keyboard accessibility
 - ARIA attributes correctness
@@ -98,9 +106,11 @@ When reviewing existing code, check for:
 With the skill active, prompts become simpler:
 
 **Before skill:**
+
 > "Create an accessible dropdown menu with keyboard navigation, ARIA attributes, focus management..."
 
 **With skill:**
+
 > "Create a dropdown menu"
 
 Claude will automatically apply accessibility best practices.
@@ -117,6 +127,7 @@ Create an agent with this system prompt:
 You are an accessibility expert reviewing code for WCAG 2.2 Level AA compliance.
 
 For each component or page:
+
 1. Check semantic HTML structure
 2. Verify keyboard navigation works
 3. Review ARIA attributes (are they needed? are they correct?)
@@ -126,6 +137,7 @@ For each component or page:
 7. Look for common anti-patterns
 
 Provide:
+
 - Issues found (severity: critical, important, minor)
 - Specific code locations
 - How to fix each issue
@@ -151,6 +163,7 @@ const MyComponent = () => {
 ```
 
 **Agent response:**
+
 ```
 Critical Issues:
 1. [WCAG 4.1.2] Interactive div should be a <button>
@@ -177,24 +190,31 @@ Suggested fix:
 A good workflow combines AI assistance with human judgment:
 
 ### 1. Generate with AI
+
 Use prompts that include accessibility requirements.
 
 ### 2. Review Generated Code
+
 - Does it use semantic HTML?
 - Are ARIA attributes necessary and correct?
 - Is keyboard navigation handled?
 
 ### 3. Test with Tools
+
 - Run automated tests (Axe, Lighthouse)
 - Test with keyboard
 - Test with screen reader
 
 ### 4. Iterate with AI
+
 If issues found:
+
 > "The modal doesn't trap focus. Update the code to trap focus inside the modal when open."
 
 ### 5. Document Decisions
+
 Ask AI to document accessibility choices:
+
 > "Add comments explaining the accessibility features of this component"
 
 ## Common AI Mistakes to Watch For
@@ -202,6 +222,7 @@ Ask AI to document accessibility choices:
 Even with good prompts, AI makes mistakes:
 
 ### Mistake 1: Over-using ARIA
+
 ```jsx
 // ❌ AI might generate
 <button role="button" aria-label="Submit">Submit</button>
@@ -213,6 +234,7 @@ Even with good prompts, AI makes mistakes:
 **Why it's wrong:** Button already has role="button" and the text provides the label.
 
 ### Mistake 2: Generic Alt Text
+
 ```jsx
 // ❌ AI might generate
 <img src="chart.png" alt="chart" />
@@ -224,6 +246,7 @@ Even with good prompts, AI makes mistakes:
 **Why it's wrong:** Alt text should convey meaning, not just describe the type.
 
 ### Mistake 3: Incorrect ARIA Relationships
+
 ```jsx
 // ❌ AI might generate
 <button aria-describedby="help">Help</button>
@@ -237,6 +260,7 @@ Even with good prompts, AI makes mistakes:
 **Why it's wrong:** The ID must match exactly.
 
 ### Mistake 4: Missing Focus Management
+
 ```jsx
 // ❌ AI might generate (modal without focus trap)
 const Modal = ({ isOpen }) => {
@@ -247,16 +271,16 @@ const Modal = ({ isOpen }) => {
 // ✅ With focus management
 const Modal = ({ isOpen, onClose }) => {
   const modalRef = useRef(null);
-  
+
   useEffect(() => {
     if (isOpen) {
       const previousFocus = document.activeElement;
       modalRef.current?.focus();
-      
+
       return () => previousFocus?.focus();
     }
   }, [isOpen]);
-  
+
   return isOpen ? (
     <div ref={modalRef} role="dialog" tabIndex={-1}>
       ...
@@ -273,6 +297,7 @@ const Modal = ({ isOpen, onClose }) => {
 4. Compare the before and after
 
 **Questions to ask:**
+
 - Does every input have a label?
 - Are required fields marked?
 - Is there error handling?
@@ -281,6 +306,7 @@ const Modal = ({ isOpen, onClose }) => {
 ## Prompt Templates
 
 ### General Component
+
 ```
 Create a [component name] that meets WCAG 2.2 Level AA standards.
 Include:
@@ -294,6 +320,7 @@ Explain accessibility choices made.
 ```
 
 ### Form Component
+
 ```
 Create an accessible [form type] with:
 - Labels for all inputs
@@ -305,6 +332,7 @@ Meeting WCAG 2.2 Level AA standards.
 ```
 
 ### Interactive Widget
+
 ```
 Create an accessible [widget type] following ARIA authoring practices:
 - Proper ARIA roles and attributes
@@ -325,6 +353,7 @@ AI cannot:
 - **Make subjective judgments:** Is this heading hierarchy logical?
 
 **Always combine AI assistance with:**
+
 - Automated testing tools
 - Manual testing (keyboard, screen reader)
 - Human review
@@ -335,6 +364,7 @@ AI cannot:
 The more context you give AI, the better:
 
 ### Include in Your Prompts:
+
 - Your design system's accessibility patterns
 - Component library conventions
 - WCAG level you're targeting
@@ -342,6 +372,7 @@ The more context you give AI, the better:
 - Assistive tech testing results from previous work
 
 ### Example with Context:
+
 ```
 Create a button component following our design system patterns:
 - Use our design tokens for colors (meets AA contrast)
