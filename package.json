@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node content-paths.js && next dev --turbopack",
+    "dev": "node content-paths.js --watch & next dev --turbopack",
     "build": "node content-paths.js && next build",
     "start": "next start",
     "lint": "next lint"

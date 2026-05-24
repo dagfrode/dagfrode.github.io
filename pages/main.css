@@ -19,7 +19,7 @@ body {
   --theme-black-quote-bar: var(--main-green-dark);
 }
 
-body.light-mode {
+html.light-mode body {
   --theme-background: var(--main-white);
   --theme-text: var(--main-green-dark);
   --theme-link: var(--main-green-light);
@@ -28,7 +28,7 @@ body.light-mode {
   --theme-black-quote-bar: var(--main-green-dark);
 }
 
-body.dark-mode {
+html.dark-mode body {
   --theme-background: var(--main-green-dark);
   --theme-text: var(--main-white);
   --theme-link: var(--main-pink);
@@ -38,7 +38,7 @@ body.dark-mode {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  html:not(.light-mode):not(.dark-mode) body {
     --theme-background: var(--main-green-dark);
     --theme-text: var(--main-white);
     --theme-link: var(--main-pink);
@@ -137,7 +137,7 @@ html {
 main,
 header,
 footer {
-  max-width: 46rem;
+  max-width: 120ch;
   margin: 0 auto;
   padding: 10px;
 }
@@ -202,6 +202,33 @@ header a {
   gap: 3px;
   text-decoration: none;
   border-bottom: 1px solid var(--theme-link);
+}
+
+.theme-toggle {
+  background: none;
+  border: 1.5px solid var(--theme-link);
+  color: var(--theme-link);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: auto;
+  transition: background 150ms, color 150ms;
+}
+
+.theme-toggle:hover {
+  background: var(--theme-link);
+  color: var(--theme-background);
+}
+
+.theme-toggle svg {
+  flex-shrink: 0;
 }
 
 .highlight pre {

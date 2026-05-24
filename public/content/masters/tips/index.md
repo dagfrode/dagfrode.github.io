@@ -1,1 +1,0 @@
-<script src="/assets/js/goToParent.js"></script>

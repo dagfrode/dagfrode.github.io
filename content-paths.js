@@ -1,7 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
-// Function to get all file paths recursively
+const contentDir = path.join(__dirname, "public", "content");
+const outputFilePath = path.join(__dirname, "app", "content-paths.ts");
+
 function getAllFilePaths(dir, fileList = []) {
   if (!fs.existsSync(dir)) {
     console.error(`Directory does not exist: ${dir}`);
@@ -17,7 +19,6 @@ function getAllFilePaths(dir, fileList = []) {
     if (stat.isDirectory()) {
       fileList = getAllFilePaths(filePath, fileList);
     } else {
-      // Only include .md files
       if (filePath.endsWith(".md")) {
         fileList.push(filePath);
       }
@@ -27,26 +28,31 @@ function getAllFilePaths(dir, fileList = []) {
   return fileList;
 }
 
-// Define the content directory and the output file path
-const contentDir = path.join(__dirname, "public", "content");
-const outputFilePath = path.join(__dirname, "app", "content-paths.ts");
-
-// Get all file paths
-const filePaths = getAllFilePaths(contentDir);
-
-// Convert absolute paths to relative paths from the content directory
-const relativePaths = filePaths.map((filePath) =>
-  path.relative(contentDir, filePath).replace(/\\/g, "/")
-);
-
-// Generate the TypeScript content
-const tsContent = `// This file is auto-generated
+function generate() {
+  const filePaths = getAllFilePaths(contentDir);
+  const relativePaths = filePaths.map((filePath) =>
+    path.relative(contentDir, filePath).replace(/\\/g, "/")
+  );
+  const tsContent = `// This file is auto-generated
 export const contentPaths = ${JSON.stringify(relativePaths, null, 2)};
 `;
+  fs.writeFileSync(outputFilePath, tsContent, "utf8");
+  console.log(
+    `${relativePaths.length} markdown files have been written to ${outputFilePath}`
+  );
+}
 
-// Write the TypeScript content to the output file
-fs.writeFileSync(outputFilePath, tsContent, "utf8");
+generate();
 
-console.log(
-  `${relativePaths.length} markdown files have been written to ${outputFilePath}`
-);
+if (process.argv.includes("--watch")) {
+  console.log(`[content-paths] watching ${contentDir}`);
+  let debounce = null;
+  fs.watch(contentDir, { recursive: true }, (eventType, filename) => {
+    if (!filename?.endsWith(".md")) return;
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      console.log(`[content-paths] ${eventType}: ${filename}`);
+      generate();
+    }, 100);
+  });
+}
