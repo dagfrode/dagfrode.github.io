@@ -191,35 +191,44 @@ object {
 
 header {
   display: flex;
-  flex-direction: row;
-  gap: 15px;
-  overflow: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 2px;
+  padding: 16px 10px 0;
+  border-bottom: 1px solid var(--theme-header-underline);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  flex: 1;
+  font-size: 1.4rem;
+  margin: 0;
 }
 
 header a {
-  display: flex;
-  align-items: center;
-  gap: 3px;
   text-decoration: none;
-  border-bottom: 1px solid var(--theme-link);
+  color: var(--theme-link);
 }
 
 .theme-toggle {
   background: none;
   border: 1.5px solid var(--theme-link);
   color: var(--theme-link);
-  border-radius: 6px;
-  padding: 4px 10px;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 0;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.8rem;
-  line-height: 1;
-  white-space: nowrap;
+  justify-content: center;
   flex-shrink: 0;
-  margin-left: auto;
   transition: background 150ms, color 150ms;
+}
+
+.theme-toggle span {
+  display: none;
 }
 
 .theme-toggle:hover {
@@ -227,8 +236,30 @@ header a {
   color: var(--theme-background);
 }
 
-.theme-toggle svg {
-  flex-shrink: 0;
+.breadcrumbs {
+  flex-basis: 100%;
+  padding: 6px 0 10px;
+}
+
+.breadcrumbs ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.breadcrumbs li + li::before {
+  content: "›";
+  margin: 0 6px;
+  opacity: 0.5;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
 }
 
 .highlight pre {
