@@ -165,6 +165,7 @@ h2 {
   font-size: 2rem;
   border-bottom: 1px solid var(--theme-header-underline);
   margin-top: 4rem;
+  width: fit-content;
 }
 
 h3 {
@@ -455,6 +456,42 @@ header a {
 .highlight .gi {
   color: #a6e22e;
 } /* Generic.Inserted & Diff Inserted */
+
+main p {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+main ul,
+main ol {
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+main li {
+  margin-top: 0.4rem;
+}
+
+main h2 + p,
+main h2 + ul {
+  margin-top: 0.75rem;
+}
+
+main h1 {
+  margin-bottom: 1rem;
+}
+
+main a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Home page nav layout */
+main.home h2 {
+  margin-top: 2rem;
+  border-bottom: none;
+  opacity: 0.7;
+}
 
 /*Presentation*/
 /* --------------------- */

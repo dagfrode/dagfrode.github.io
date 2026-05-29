@@ -161,6 +161,7 @@ export default function Page({
 
   const router = useRouter();
   const slug = router.query.slug;
+  const isHome = !slug;
   if (!content) {
     return <div>Loading...</div>;
   }
@@ -195,7 +196,7 @@ export default function Page({
   return (
     <>
       <header>
-        <h1>My Blog</h1>
+        <h1>My Mind Cabin</h1>
         <button className="theme-toggle" onClick={toggleMode} title={modeLabel[mode].label}>
           {modeLabel[mode].icon}
           <span>{modeLabel[mode].text}</span>
@@ -212,7 +213,7 @@ export default function Page({
           )}
         </nav>
       </header>
-      <main>
+      <main className={isHome ? "home" : undefined}>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </main>
       <footer></footer>

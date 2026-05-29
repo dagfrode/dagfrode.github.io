@@ -1,21 +1,23 @@
 # Dag Frode
 
-## What am I doing now?
+A personal space for thoughts, talks, and things I'm working on.
 
-See my [now](/now/) page.
+## Now
 
-## Things I'm reading up on
+[What I'm up to right now](/now/) — current projects, focus, and obsessions.
 
-See my [study](/study/) list.
+## Talks
 
-## Some of the things i talk about
+[Things I've spoken about](/talks/) — presentations on accessibility, design systems, and HCI.
 
-See my [talks](/talks/) page.
+## Notes
 
-## Some of the things i think about
+[Things I think about](/notes/) — rough ideas, observations, and half-formed theories.
 
-See my [notes](/notes/) page.
+## Study
 
-## What is it like working with me?
+[What I'm reading and learning](/study/) — books, papers, courses.
 
-See [working with Dag Frode](/work/manual)
+## Working with me
+
+[My work manual](/work/manual) — how I communicate, what I value, and how to get the best out of us.
