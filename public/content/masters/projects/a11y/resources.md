@@ -17,6 +17,20 @@ knowledge, tools, and processes
 - hvordan det oppleves
 - hvordan teste
 
+## Conceptual framing
+
+- [Microsoft Inclusive Design](https://inclusive.microsoft.design/) — the persona spectrum and the solve-for-one principle: design for the most excluded person and the solution extends to many
+
+## Testing tools
+
+Developers use these to find and fix accessibility issues. Useful to know when designing what knowledge a game should build.
+
+- [Axe DevTools](https://www.deque.com/axe/devtools/) — the most widely used automated accessibility scanner (browser extension)
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) — check colour contrast ratios against WCAG
+- [Color.review](https://color.review/) — visual contrast exploration
+- [Color Blind Web Page Filter](https://www.toptal.com/designers/colorfilter) — simulate how pages look with different colour vision deficiencies
+- [NVDA](https://www.nvaccess.org/download/) — free screen reader for Windows, widely used for testing
+
 ## Games and simulations
 
 - [What dyslexia feels like](https://geon.github.io/programming/2016/03/03/dsxyliea)
@@ -34,6 +48,7 @@ knowledge, tools, and processes
 
 https://nhf.no/for-tillitsvalgte/abc-om-nhf/tall-og-fakta/
 https://www.bufdir.no/statistikk-og-analyse/funksjonsnedsettelse/begreper-kunnskapsgrunnlag/
+https://www.blindeforbundet.no/oyehelse-og-synshemninger/fakta-og-statistikk-om-synshemninger
 https://pressbooks.library.torontomu.ca/wafd/chapter/types-of-disabilities-and-barriers/#Everyone
 https://www.boia.org/blog/what-are-cognitive-disabilities-and-why-are-they-important-for-web-accessibility
 https://www.tpgi.com/making-the-web-accessible-a-focus-on-cognitive-disabilities/

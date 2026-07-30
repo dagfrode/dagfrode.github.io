@@ -8,6 +8,9 @@ I co-created a [Serious Privacy Game Workshop](https://dagfs.dev/sprig/) as my m
 
 ### Master project I have co-supervised
 
+- 2025/2026/2027
+  - [Building Knowledge and Empathy for Accessibility through Educational Games](./projects/a11y/)
+
 - 2022/2023
   - [Collaborative Educational Games for learning agile software development](./projects/agile-game/)
   - [Burnout in IT education and industry - awareness, education and prevention](./projects/burnout/)

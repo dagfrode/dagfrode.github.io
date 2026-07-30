@@ -1,19 +1,17 @@
-# Building Knowledge and Empathy for Accessibility through Educational Games
+# Accessibility
 
-Over the past decades, there has been significant progress in digital accessibility, driven by better tools, stronger governance, and increased awareness. However, shifting economic priorities and limited understanding of accessibility concepts threaten to stall this progress. For many developers, accessibility remains a vague and complex area — a checklist of standards without a clear sense of how to meet them or why they matter.
+Accessibility is about ensuring digital systems work for the full range of human variation — not just the average user. This project explores how educational games can build the knowledge and empathy developers need to make that happen.
 
-Accessibility is a broad field, encompassing diverse types of impairments — from visual and auditory impairments to motor limitations and cognitive challenges. Importantly, these impairments may be permanent, temporary (e.g., an injury), or situational (e.g., a noisy environment or glare on a screen). By designing with accessibility in mind, we improve digital experiences not just for those with disabilities, but for everyone.
+## The project
 
-This project examines how interactive and educational games can be utilized to promote empathy and understanding of accessibility challenges. The idea is to simulate different impairments through playable web-based scenarios that highlight common accessibility failures. Players will experience the frustrations faced by users with impairments and then be guided through the process of improving the design, seeing firsthand how the same content becomes more usable and inclusive.
+Most developers understand that accessibility matters. Fewer know what to do about it, or why it feels so hard to get right. This project looks at how interactive, game-based learning can close that gap — by letting people experience accessibility challenges directly rather than reading about them.
 
-Possible contributions of the project include:
+- [Project description](./description) — the full proposal for prospective students
+- [Project suggestion on IDI](https://www.idi.ntnu.no/education/oppgaveforslag?oid=4274)
 
-- Designing and implementing an accessibility-focused learning game
-- Simulating impairments such as blindness, color blindness, dyslexia, or motor impairments
-- Demonstrating common accessibility barriers in websites and showing how to fix them
-- Evaluating learning outcomes or user experiences with a prototype
+## Background reading
 
-This project is ideal for students interested in inclusive design, human-computer interaction, educational technology, or web development. It offers a chance to combine technical work with a meaningful social mission.
+New to accessibility? These pages cover the core concepts and ideas behind the field.
 
-- [Project suggestion](https://www.idi.ntnu.no/education/oppgaveforslag?oid=4274)
-- [Resources](./resources)
+- [Introduction to accessibility](./intro) — the gap model, models of disability, WCAG, design principles, and why we focus on challenges rather than categories
+- [Resources](./resources) — curated links, simulations, and further reading
