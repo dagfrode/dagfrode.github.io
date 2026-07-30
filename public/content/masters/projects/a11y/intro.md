@@ -84,8 +84,15 @@ This is also why simulation and game-based learning are valuable approaches in t
 **Conceptual framing**
 
 - [Understanding Accessibility](https://uxdesign.cc/understanding-accessibility-makes-you-a-better-insert-your-name-here-1f7a15c50e7f) — permanent, temporary, and situational impairment explained
-- [Microsoft Inclusive Design](https://inclusive.microsoft.design/) — the persona spectrum and the solve-for-one principle
+- [Microsoft Inclusive 101](https://inclusive.microsoft.design/articles/inclusive-101-guidebook/) — the persona spectrum and the solve-for-one principle
 - [Teaching Accessible Computing](https://bookish.press/tac) — web book, useful for both students and educators
+
+**Models and theory**
+
+- [Mike Oliver — The Social Model of Disability: Thirty Years On](https://doi.org/10.1080/09687599.2013.818773) — the social model, from one of its originators
+- [WHO — International Classification of Functioning, Disability and Health (ICF)](https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health) — the biopsychosocial model used in the section above
+- [Sweller — Cognitive Load During Problem Solving](https://doi.org/10.1016/0364-0213%2888%2990023-7) — the origin of cognitive load theory
+- [Paas, Renkl & Sweller — Cognitive Load Theory and Instructional Design](https://doi.org/10.1207/S15326985EP3801_1) — recent developments, applied to learning design
 
 **Simulations**
 

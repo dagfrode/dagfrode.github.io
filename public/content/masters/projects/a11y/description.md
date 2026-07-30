@@ -44,11 +44,14 @@ Possible contributions include:
 
 This project continues a mobile-focused prototype where players experience accessibility barriers on phones. Mobile introduces distinct challenges — smaller targets, touch-only interaction, screen reader behavior that differs from desktop — and brings accessibility into the everyday devices most people already use. This project extends and evaluates the prototype with a focus on situational, temporary, and permanent barriers.
 
-**Focus:** How can mobile simulation games communicate the situational, temporary, and permanent nature of accessibility barriers?
+A particular direction to explore is *reverse simulation*: rather than simulating an impairment in the person — for example asking a tester to physically shake their hands to mimic a tremor — the effect is simulated in the interface itself, with on-screen elements shaking, drifting, or resisting input. This inverts where the difficulty lives, and a central research question is whether this is a valid and faithful way to simulate these impairments. The project should explore reverse simulation more deeply and gather evidence for or against its validity.
+
+**Focus:** How can mobile simulation games communicate the situational, temporary, and permanent nature of accessibility barriers, and is reverse simulation a valid way to convey them?
 
 Possible contributions include:
 - Analyzing the existing prototype and identifying gaps in scenarios and experience
-- Extending the game with new barrier types and mobile-specific challenges
+- Extending the game with new barrier types and mobile-specific challenges, including reverse simulation
+- Investigating and evaluating whether reverse simulation faithfully represents the impairments it stands in for
 - Evaluating user experience and learning outcomes with the prototype
 
 ---
