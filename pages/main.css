@@ -137,7 +137,7 @@ html {
 main,
 header,
 footer {
-  max-width: 80ch;
+  max-width: 65ch;
   margin: 0 auto;
   padding: 10px;
 }
