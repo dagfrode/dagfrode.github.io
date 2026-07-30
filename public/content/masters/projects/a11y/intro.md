@@ -73,4 +73,4 @@ A more productive framing is to start from challenges: what makes this task hard
 
 This is also why simulation and game-based learning are valuable approaches in this space — they create direct experience of specific challenges rather than abstract categories. A quick demonstration: [what dyslexia feels like](https://geon.github.io/programming/2016/03/03/dsxyliea) makes a reading challenge visceral in a way a description cannot, and the consequences are real — [someone lost their job because IT systems were inaccessible](https://www.nrk.no/trondelag/birgit-risholt-blei-ufor-fra-jobben-i-sintef-mot-sin-vilje-_-it-systema-er-ikkje-universelt-utforma-1.17661414) (Norwegian). For a deeper treatment, [Teaching Accessible Computing](https://bookish.press/tac) is a useful web book for both students and educators.
 
-For a curated set of tools, games, and further reading, see the [resources page](./resources.md).
+For a curated set of tools, games, and further reading, see the [resources page](../resources).
